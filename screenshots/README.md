@@ -128,6 +128,9 @@ Screenshots
 
 ![image](dark_pastel.png)
 
+`dark_plus.png`
+![image](dark_plus.png)
+
 `darkside.png`
 
 ![image](darkside.png)
@@ -215,6 +218,10 @@ Screenshots
 `forest_blue.png`
 
 ![image](forest_blue.png)
+
+`framer.png`
+
+![image](framer.png)
 
 `front_end_delight.png`
 

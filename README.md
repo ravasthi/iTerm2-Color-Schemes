@@ -11,9 +11,11 @@
   - [Terminator color schemes](#terminator-color-schemes)
   - [Mac OS Terminal color schemes](#terminal-color-schemes)
   - [PuTTY color schemes](#putty-color-schemes)
-  - [Xfce Terminal color schemes](xfce-terminal-color-schemes)
+  - [Xfce Terminal color schemes](#xfce-terminal-color-schemes)
+  - [FreeBSD vt(4) color schemes](#freebsd-vt-color-schemes)
   - [Previewing color schemes](#previewing-color-schemes)
-
+  - [MobaXterm color schemes](#mobaxterm-color-schemes)
+  - [LXTerminal color schemes](#lxterminal-color-schemes)
 ## Intro
 This is a set of color schemes for iTerm (aka iTerm2). Screenshots below and in the [screenshots](screenshots/) directory.
 
@@ -55,6 +57,8 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 **For screenshot consistency, please have your font set to 13pt Monaco and no transparency on the window**
 
+It would also be very helpful if you `cd tools/` and run `python3 update_all.py` to generate all formats of your scheme
+
 ## Screenshots
 ### 3024 Day
 
@@ -75,6 +79,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 ### AlienBlood
 
 ![Screenshot](screenshots/alien_blood.png)
+
+### Andromeda
+
+![Screenshot](screenshots/andromeda.png)
 
 ### Argonaut
 
@@ -194,6 +202,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/challenger_deep.png)
 
+### Chester
+
+![Screenshot](screenshots/chester.png)
+
 ### Ciapre
 
 ![Screenshot](screenshots/ciapre.png)
@@ -214,9 +226,17 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/crayon_pony_fish.png)
 
+### Cyberpunk
+
+![Screenshot](screenshots/cyberpunk.png)
+
 ### Dark Pastel
 
 ![Screenshot](screenshots/dark_pastel.png)
+
+## Dark+
+
+![Screenshot](screenshots/dark_plus.png)
 
 ### Darkside
 
@@ -306,6 +326,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/forest_blue.png)
 
+### Framer
+
+![Screenshot](screenshots/framer.png)
+
 ### FrontEndDelight
 
 ![Screenshot](screenshots/front_end_delight.png)
@@ -386,6 +410,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/ic_orange_ppl.png)
 
+### IDEA Drak
+
+![Screenshot](screenshots/idea.png)
+
 ### idleToes
 
 ![Screenshot](screenshots/idleToes.png)
@@ -414,6 +442,14 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/kibble.png)
 
+### Kolorit
+
+![Screenshot](screenshots/kolorit.png)
+
+### Lab Fox
+
+![Screenshot](screenshots/lab_fox.png)
+
 ### Later This Evening
 
 ![Screenshot](screenshots/later_this_evening.png)
@@ -434,6 +470,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/liquid_carbon_transparent_inverse.png)
 
+### LoveLace
+
+![Screenshot](screenshots/LoveLace.png)
+
 ### Man Page
 
 ![Screenshot](screenshots/man_page.png)
@@ -446,6 +486,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/material_dark.png)
 
+### MaterialOcean
+
+![Screenshot](screenshots/material_ocean.png)
+
 ### Mathias
 
 ![Screenshot](screenshots/mathias.png)
@@ -453,6 +497,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 ### Medallion
 
 ![Screenshot](screenshots/medallion.png)
+
+### Midnight In Mojave
+
+![Screenshot](screenshots/midnight_in_mojave.png)
 
 ### Misterioso
 
@@ -497,6 +545,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 ### NightLion v2
 
 ![Screenshot](screenshots/nightlion_v2.png)
+
+### Night Owlish Light
+
+![Screenshot](screenshots/night_owlish_light.png)
 
 ### Novel
 
@@ -561,6 +613,10 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 ### Pnevma
 
 ![Screenshot](screenshots/pnevma.png)
+
+### Primary
+
+![Screenshot](screenshots/primary.png)
 
 ### Pro
 
@@ -650,10 +706,6 @@ To include a screenshot, please generate the output using the [screenshotTable.s
 
 ![Screenshot](screenshots/solarized_darcula.png)
 
-### Solarized Dark
-
-![Screenshot](screenshots/solarized_dark.png)
-
 ### Solarized Dark - Patched
 
 Some applications assume the ANSI color code 8 is a gray color. Solarized treats
@@ -670,10 +722,6 @@ more information.
 ### Solarized Dark Higher Contrast
 
 ![Screenshot](screenshots/solarized_dark_higher_contrast.png)
-
-### Solarized Light
-
-![Screenshot](screenshots/solarized_light.png)
 
 ### SpaceGray
 
@@ -702,6 +750,10 @@ more information.
 ### Square
 
 ![Screenshot](screenshots/square.png)
+
+### Subliminal
+
+![Screenshot](screenshots/subliminal.png)
 
 ### Sundried
 
@@ -779,9 +831,17 @@ more information.
 
 ![Screenshot](screenshots/ubuntu.png)
 
+### UltraViolent
+
+![Screenshot](screenshots/ultra_violent.png)
+
 ### Under The Sea
 
 ![Screenshot](screenshots/under_the_sea.png)
+
+### Unikitty
+
+![Screenshot](screenshots/unikitty.png)
 
 ### Urple
 
@@ -831,9 +891,6 @@ more information.
 
 ![Screenshot](screenshots/zenburn.png)
 
-### IDEA Drak
-![Screenshot](screenshots/idea.png)
-
 ## Credits
 The schemes Novel, Espresso, Grass, Homebrew, Ocean, Pro, Man Page, Red Sands, and Terminal Basic are ports of the schemes of the same name included with the Mac Terminal application. All of Terminal's schemes have now been ported, with the exception of "Solid Colors" (random backgrounds, which iTerm doesn't support) and "Aerogel" (which is hideous).
 
@@ -860,6 +917,8 @@ The theme Monokai Soda was found [here](https://github.com/deepsweet/Monokai-Sod
 The theme Monokai Vivid was created by [vitalymak](https://github.com/vitalymak/iTerm2-Color-Schemes).
 
 The theme Neopolitan was created by [daytonn](https://github.com/daytonn/iTerm2-Color-Schemes)
+
+The theme Subliminal was created by [gdsrosa](https://github.com/gdsrosa/subliminal-itermcolors)
 
 The themes Solarized Dark and Solarized Light come from the official [Solarized web site](http://ethanschoonover.com/solarized)
 
@@ -1045,6 +1104,28 @@ The Rebecca theme was created [vic](https://github.com/vic) based on his [emacs 
 
 The Whimsy theme was created by [Rod](https://github.com/rod)
 
+The Chester theme was created by [KH](https://github.com/spectralkh)
+
+The Kolorit theme was created by [thomaspaulmann](https://github.com/thomaspaulmann)
+
+The Cyberpunk theme was created by [Murderlon](https://github.com/Murderlon/cyberpunk-iterm)
+
+The LoveLace theme was created by [nalanbar](https://github.com/nalanbar) based on a dotfile from [elenapan](https://github.com/elenapan)
+
+The Framer theme was created by [markogresak](https://github.com/markogresak) based on [Framer Syntax Theme](https://www.producthunt.com/posts/framer-syntax-theme) provided by [Framer](https://framer.com).
+
+The Lab Fox theme was created by [theatlasroom](https://github.com/theatlasroom) inspired by the [Gitlab design system](https://design.gitlab.com)
+
+The Unikitty theme was created by [jakebathman](https://github.com/jakebathman)
+
+The Primary theme was created by [jayanthkoushik](https://github.com/jayanthkoushik) based on [Google's vim colorscheme](https://github.com/google/vim-colorscheme-primary).
+
+The Andromeda theme was created by [memije](https://github.com/memije) based on [EliverLara](https://github.com/EliverLara/)'s [Andromeda](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda) VS Code theme.
+
+The Night Owlish Light theme was created by [praveenpuglia](https://github.com/praveenpuglia) based on [sdras](https://github.com/sdras)'s [Night Owl](https://github.com/sdras/night-owl-vscode-theme) VS Code theme.
+
+The Midnight In Mojave theme was created by [OberstKrueger](https://github.com/oberstkrueger) based on the colors outlined in the [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/)
+
 If there are other color schemes you'd like to see included, drop me a line!
 
 ## Extra
@@ -1196,6 +1277,16 @@ Window > Colours
 
 ### Xfce Terminal color schemes
 Copy the `colorschemes` folder to `~/.local/share/xfce4/terminal/` and restart Terminal.
+
+### FreeBSD vt color schemes
+Append your favourite theme from `freebsd_vt/` to `/boot/loader.conf`
+or `/boot/loader.conf.local` and reboot.
+
+### MobaXterm color schemes
+Copy the theme content form `mobaxterm/` and paste the content to your `MobaXterm.ini` in the corresponding place. (`[Colors]`)
+
+### LXTerminal color schemes
+Copy the theme content form `lxterminal/` and paste the content to your `lxterminal` in the corresponding place. (`[general]`)
 
 ### Previewing color schemes
 
