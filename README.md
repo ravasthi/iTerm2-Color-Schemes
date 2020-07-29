@@ -16,10 +16,13 @@
   - [Previewing color schemes](#previewing-color-schemes)
   - [MobaXterm color schemes](#mobaxterm-color-schemes)
   - [LXTerminal color schemes](#lxterminal-color-schemes)
+  - [Visual Studio Code color schemes](#visual-studio-code-color-schemes)
+  - [Windows Terminal color schemes](#windows-terminal-color-schemes)
+  - [Alacritty color schemes](#alacritty-color-schemes)
 
 ## Intro
 
-This is a set of color schemes for iTerm (aka iTerm2). It also includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio
+This is a set of color schemes for iTerm (aka iTerm2). It also includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty
 
 Screenshots below and in the [screenshots](screenshots/) directory.
 
@@ -73,6 +76,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### 3024 Night
 
 ![Screenshot](screenshots/3024_night.png)
+
+### Adventure
+
+![Screenshot](screenshots/adventure.png)
 
 ### AdventureTime
 
@@ -286,6 +293,18 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/dimmed_monokai.png)
 
+### Django
+
+![Screenshot](screenshots/Django.png)
+
+### DjangoRebornAgain
+
+![Screenshot](screenshots/DjangoRebornAgain.png)
+
+### DjangoSmoothy
+
+![Screenshot](screenshots/DjangoSmoothy.png)
+
 ### Doom One
 
 ![Screenshot](screenshots/doom_one.png)
@@ -486,6 +505,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/kolorit.png)
 
+### Konsolas
+
+![Screenshot](screenshots/konsolas.png)
+
 ### Lab Fox
 
 ![Screenshot](screenshots/lab_fox.png)
@@ -545,6 +568,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Midnight In Mojave
 
 ![Screenshot](screenshots/midnight_in_mojave.png)
+
+### Mirage
+
+![Screenshot](screenshots/mirage.png)
 
 ### Misterioso
 
@@ -702,6 +729,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/rippedcasts.png)
 
+### Rouge 2
+
+![Screenshot](screenshots/rouge_2.png)
+
 ### Royal
 
 ![Screenshot](screenshots/royal.png)
@@ -709,6 +740,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Ryuuko
 
 ![Screenshot](screenshots/ryuuko.png)
+
+### Sakura
+
+![Screenshot](screenshots/sakura.png)
 
 ### Scarlet Protocol
 
@@ -742,13 +777,13 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/SleepyHollow.png)
 
-### Snazzy
-
-![Screenshot](screenshots/snazzy.png)
-
 ### Smyck
 
 ![Screenshot](screenshots/smyck.png)
+
+### Snazzy
+
+![Screenshot](screenshots/snazzy.png)
 
 ### SoftServer
 
@@ -850,6 +885,14 @@ more information.
 ### The Hulk
 
 ![Screenshot](screenshots/the_hulk.png)
+
+### Tinacious Design (Dark)
+
+![Screenshot](screenshots/tinacious_design_dark.png)
+
+### Tinacious Design (Light)
+
+![Screenshot](screenshots/tinacious_design_light.png)
 
 ### Tomorrow
 
@@ -1035,6 +1078,8 @@ The CLRS theme was created by [jasonlong](https://github.com/jasonlong/iterm-clr
 
 The Dracula theme was created by [zenorocha](https://github.com/zenorocha/dracula-theme)
 
+The Adventure theme was created by [hongzimao](https://github.com/hongzimao/iTerm2-Color-Schemes)
+
 The themes AdventureTime, AlienBlood, BirdsOfParadise, Ciapre, CrayonPonyFish, DimmedMonokai, Earthsong, Elemental, FishTank, FrontEndDelight, FunForrest, Grape, Highway, IC_Green_PPL, IC_Orange_PPL, Lavandula, Medallion, MonaLisa, Ollie, Royal, SeaShells, Shaman, SleepyHollow, SoftServer, Sundried, ToyChest, Treehouse, and Urple were created by [zdj](https://github.com/zdj/themes/tree/master/iterm2)
 
 The Japanesque theme was created by [aereal](https://github.com/aereal/dotfiles/blob/master/colors/Japanesque/Japanesque.itermcolors)
@@ -1173,6 +1218,12 @@ The Whimsy theme was created by [Rod](https://github.com/rod)
 
 The Chester theme was created by [KH](https://github.com/spectralkh)
 
+The Django theme was created by [Jannis Leidel](https://code.djangoproject.com/wiki/TextMate). The original colors schemes were created by [threespot.com](https://threespot.com) for the Django Software Foundation
+
+The DjangoSmoothy theme was created by [Jannis Leidel](https://code.djangoproject.com/wiki/TextMate). The original colors schemes were created by [threespot.com](https://threespot.com) for the Django Software Foundation
+
+The DjangoRebornAgain theme was created by [christopherscott](https://github.com/christopherscott/django-reborn) based on the original Django themes by [Jannis Leidel](https://code.djangoproject.com/wiki/TextMate)
+
 The Kolorit theme was created by [thomaspaulmann](https://github.com/thomaspaulmann)
 
 The Cyberpunk theme was created by [Murderlon](https://github.com/Murderlon/cyberpunk-iterm)
@@ -1204,6 +1255,14 @@ The Blueberry Banana, Blue Matrix, Cyberdyne, Laser, and Scarlet Protocol themes
 The BlueBerry Pie theme was created together by [murmurlilia](https://www.instagram.com/the.julias/) and [fitz123](https://github.com/fitz123)
 
 The Synthwave Everything theme was created by [smithbm2316](https://github.com/smithbm2316) based on [robb0wen's](https://github.com/robb0wen/) VS Code theme [Synthwave '84](https://github.com/robb0wen/synthwave-vscode)
+
+The theme Sakura was created by [0xN0ri](https://github.com/0xN0ri) based on [zdj](https://github.com/zdj) iTerm 2 color scheme [Urple](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Urple.itermcolors)
+
+The Mirage theme was created by [Tristan Remy](https://github.com/tristanremy/mirage) and ported to iTerm2 by [Gomah](https://github.com/Gomah/mirage-iterm).
+
+The Rouge 2 theme was created by [Josef Aidt](https://github.com/josefaidt/rouge-theme) and ported to iTerm2 by [Sam Rose](https://github.com/samrose3).
+
+The theme Tinacious Design was created by [Tina Holly](https://tinaciousdesign.com)
 
 If there are other color schemes you'd like to see included, drop me a line!
 
@@ -1370,15 +1429,23 @@ or `/boot/loader.conf.local` and reboot.
 
 ### MobaXterm color schemes
 
-Copy the theme content form `mobaxterm/` and paste the content to your `MobaXterm.ini` in the corresponding place. (`[Colors]`)
+Copy the theme content from `mobaxterm/` and paste the content to your `MobaXterm.ini` in the corresponding place (`[Colors]`).
 
 ### LXTerminal color schemes
 
-Copy the theme content form `lxterminal/` and paste the content to your `lxterminal` in the corresponding place. (`[general]`)
+Copy the theme content from `lxterminal/` and paste the content to your `lxterminal` in the corresponding place (`[general]`).
 
-### Visual Studio Code (vscode) color schemes
+### Visual Studio Code color schemes
 
-Copy the theme content into your [UserSettings.json](https://code.visualstudio.com/docs/getstarted/settings)
+Copy the theme content from `vscode/` and paste the content to your [UserSettings.json](https://code.visualstudio.com/docs/getstarted/settings).
+
+### Windows Terminal color schemes
+
+Copy the theme content from `windowsterminal/` and paste the content to your `profiles.json` in the corresponding place (`"schemes"`). Then specify the name of your theme by `"colorScheme"` in `"profiles"`.
+
+### Alacritty color schemes
+
+Copy the theme content from `alacritty/` and paste the content to your [alacritty config file](https://github.com/alacritty/alacritty/blob/master/alacritty.yml).
 
 ### Previewing color schemes
 
