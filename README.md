@@ -501,6 +501,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/jetbrains_darcula.png)
 
+### Jubi
+
+![Screenshot](screenshots/jubi.png)
+
 ### Kibble
 
 ![Screenshot](screenshots/kibble.png)
@@ -661,6 +665,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/operator_mono_dark.png)
 
+### Overnight Slumber
+
+![Screenshot](screenshots/overnight_slumber.png)
+
 ### Pandora
 
 ![Screenshot](screenshots/pandora.png)
@@ -708,6 +716,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Purple Rain
 
 ![Screenshot](screenshots/purple_rain.png)
+
+### Rapture
+
+![Screenshot](screenshots/rapture.png)
 
 ### Rebecca
 
@@ -1202,7 +1214,7 @@ The Pro Light theme was adapted from the Pro theme by [crowsonkb](https://github
 
 The Fahrenheit theme was created by [jonascarpay](https://github.com/jonascarpay) based on [fcpg](https://github.com/fcpg)'s [vim-fahrenheit](https://github.com/fcpg/vim-fahrenheit) Vim theme.
 
-The Calamity theme was created by [Pustur](https://github.com/Pustur)
+The Calamity and Rapture themes were created by [Pustur](https://github.com/Pustur)
 
 The Purple Peter theme was created by [DeChamp](https://github.com/dechamp)
 
@@ -1275,6 +1287,10 @@ MaterialDarker and DraculaPlus themes were added by [jos3s](https://github.com/j
 Nord theme were added by [Teraskull](https://github.com/Teraskull)
 
 The Gruvbox Light theme was created by [morhetz](https://github.com/morhetz) and added by [reynn](https://github.com/reynn)
+
+The Jubi theme was created by [Julia Tretel](https://github.com/jutretel)
+
+The Overnight Slumber theme was created by [Cristian Velasquez Ramos](https://github.com/cevr/overnight) and ported to iTerm2 by [Gomah](https://github.com/Gomah/overnight-slumber-iterm).
 
 If there are other color schemes you'd like to see included, drop me a line!
 
