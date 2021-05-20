@@ -28,27 +28,49 @@ Screenshots below and in the [screenshots](screenshots/) directory.
 
 ## Installation Instructions
 
-There are 2 ways to install an iTerm theme (both go to the same configuration location):
+There are 3 ways to install an iTerm theme:
 
 - Direct way via keyboard shortcut:
-  _ Launch iTerm 2. Get the latest version at <a href="http://www.iterm2.com">iterm2.com</a>
-  _ Type CMD+i (⌘+i)
-  _ Navigate to **Colors** tab
-  _ Click on **Color Presets**
-  _ Click on **Import**
-  _ Click on the **schemes** folder
-  _ Select the **.itermcolors** profiles you would like to import
-  _ Click on **Color Presets** and choose a color scheme
 
-- Via iTerm preferences
-  _ Launch iTerm 2. Get the latest version at <a href="http://www.iterm2.com">iterm2.com</a>
-  _ Click on **iTerm2** menu title
-  _ Select **Preferences...** option
-  _ Select **Profiles**
-  _ Navigate to **Colors** tab
-  _ Click on **Color Presets**
-  _ Click on **Import**
-  _ Select the .itermcolors file(s) of the [schemes](schemes/) you'd like to use \* Click on **Color Presets** and choose a color scheme
+  - Launch iTerm 2. Get the latest version at <a href="http://www.iterm2.com">iterm2.com</a>
+  - Type CMD+i (⌘+i)
+  - Navigate to **Colors** tab
+  - Click on **Color Presets**
+  - Click on **Import**
+  - Click on the **schemes** folder
+  - Select the **.itermcolors** profiles you would like to import
+  - Click on **Color Presets** and choose a color scheme
+
+- Via iTerm preferences (go to the same configuration location as above):
+
+  - Launch iTerm 2. Get the latest version at <a href="http://www.iterm2.com">iterm2.com</a>
+  - Click on **iTerm2** menu title
+  - Select **Preferences...** option
+  - Select **Profiles**
+  - Navigate to **Colors** tab
+  - Click on **Color Presets**
+  - Click on **Import**
+  - Select the .itermcolors file(s) of the [schemes](schemes/) you'd like to use \* Click on **Color Presets** and choose a color scheme
+
+- Via Bash script
+
+  - Launch iTerm 2. Get the latest version at <a href="http://www.iterm2.com">iterm2.com</a>
+  - Run the following command:
+
+  ```sh
+  # Import all color schemes
+  tools/import-scheme.sh schemes/*
+
+  # Import all color schemes (verbose mode)
+  tools/import-scheme.sh -v schemes/*
+
+  # Import specific color schemes (quotations are needed for schemes with spaces in name)
+  tools/import-scheme.sh 'schemes/SpaceGray Eighties.itermcolors' # by file path
+  tools/import-scheme.sh 'SpaceGray Eighties'                     # by scheme name
+  tools/import-scheme.sh Molokai 'SpaceGray Eighties'             # import multiple
+  ```
+
+  - Restart iTerm 2. (Need to quit iTerm 2 to reload the configuration file.)
 
 ## Contribute
 
@@ -125,6 +147,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/ayu_light.png)
 
+### Aurora
+
+![Screenshot](screenshots/aurora.png)
+
 ### Batman
 
 ![Screenshot](screenshots/batman.png)
@@ -152,6 +178,9 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Blueberry Banana
 
 ![Screenshot](screenshots/blueberry_banana.png)
+
+### BlueDolphin
+![Screenshot](screenshots/BlueDolphin.png)
 
 ### Blue Matrix
 
@@ -309,6 +338,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/doom_one.png)
 
+### Doom Peacock
+
+![Screenshot](screenshots/doom_peacock.png)
+
 ### DotGov
 
 ![Screenshot](screenshots/dot_gov.png)
@@ -397,6 +430,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/galaxy.png)
 
+### Galizur 
+
+![image](screenshots/galizur.png)
+
 ### Github
 
 ![Screenshot](screenshots/github.png)
@@ -420,6 +457,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Gruvbox Light
 
 ![Screenshot](screenshots/gruvbox_light.png)
+
+### Guezwhoz
+
+![Screenshot](screenshots/Guezwhoz.png)
 
 ### Hacktober
 
@@ -472,6 +513,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### IC_Orange_PPL
 
 ![Screenshot](screenshots/ic_orange_ppl.png)
+
+### iceberg
+
+![Screenshot](screenshots/iceberg.png)
 
 ### IDEA Drak
 
@@ -669,6 +714,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/overnight_slumber.png)
 
+### Palenight High Contrast
+
+![Screenshot](screenshots/PaleNightHC.png)
+
 ### Pandora
 
 ![Screenshot](screenshots/pandora.png)
@@ -720,6 +769,14 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Rapture
 
 ![Screenshot](screenshots/rapture.png)
+
+### Raycast Dark
+
+![Screenshot](screenshots/raycast_dark.png)
+
+### Raycast Light
+
+![Screenshot](screenshots/raycast_light.png)
 
 ### Rebecca
 
@@ -858,6 +915,10 @@ more information.
 
 ![Screenshot](screenshots/square.png)
 
+### Sublette
+
+![Screenshot](screenshots/sublette.png)
+
 ### Subliminal
 
 ![Screenshot](screenshots/subliminal.png)
@@ -953,6 +1014,10 @@ more information.
 ### UltraViolent
 
 ![Screenshot](screenshots/ultra_violent.png)
+
+### UltraDark
+
+![Screenshot](screenshots/ultradark.png)
 
 ### Under The Sea
 
@@ -1103,6 +1168,8 @@ The Japanesque theme was created by [aereal](https://github.com/aereal/dotfiles/
 The Seti theme was created by [jesseweed](https://github.com/jesseweed/seti-syntax/) and ported to iTerm2 by [philduffy](https://github.com/willmanduffy/seti-iterm) and slightly modified to make the ANSI blacks have a little more contrast
 
 The Hipster Green and Jackie Brown themes were created by [Unkulunkulu](https://github.com/Unkulunkulu)
+
+The Aurora theme was created by [fcsmJS](https://github.com/fcsmJS/iTerm2-Color-Schemes)
 
 The Chalk theme was created by [achalv](https://github.com/achalv/chalk)
 
@@ -1266,6 +1333,8 @@ The coffee theme was created by [cbitterfield](https://github.com/cbitterfield)
 
 The Doom One theme was based on [Emacs Doom default theme](https://github.com/hlissner/emacs-doom-themes)
 
+The Doom Peacock theme was based on [Emacs Doom Peacock theme](https://github.com/hlissner/emacs-doom-themes)
+
 The Blueberry Banana, Blue Matrix, Cyberdyne, Laser, and Scarlet Protocol themes were created by [ReagentX](https://github.com/ReagentX)
 
 The BlueBerry Pie theme was created together by [murmurlilia](https://www.instagram.com/the.julias/) and [fitz123](https://github.com/fitz123)
@@ -1290,7 +1359,23 @@ The Gruvbox Light theme was created by [morhetz](https://github.com/morhetz) and
 
 The Jubi theme was created by [Julia Tretel](https://github.com/jutretel)
 
+The Guezwhoz theme was created by [Egor Lem](https://github.com/guesswhozzz/guezwhoz-iterm2-theme)
+
 The Overnight Slumber theme was created by [Cristian Velasquez Ramos](https://github.com/cevr/overnight) and ported to iTerm2 by [Gomah](https://github.com/Gomah/overnight-slumber-iterm).
+
+The PaleNight theme was created by [Mattia Astorino](https://github.com/equinusocio) and ported to iTerm2 by [Kasper](https://github.com/Kasper-Liu)
+
+The iceberg theme was created by [cocopon](https://github.com/cocopon/iceberg.vim) and ported to iTerm2 by [pbnj](https://github.com/pbnj)
+
+The "Galizur" theme was crafted by [Raziel Anarki](https://github.com/razielanarki)
+
+The [Raycast](https://raycast.com) Dark/Light themes were created by [thomaspaulmann](https://github.com/thomaspaulmann) and [itsnwa](https://github.com/itsnwa).
+
+The BlueDolphin theme was designed by [vimiomori](https://github.com/vimiomori).
+
+The Sublette theme was created by [sublee](https://github.com/sublee).
+
+The UltraDark theme was created by [Kasper](https://github.com/Kasper-Liu).
 
 If there are other color schemes you'd like to see included, drop me a line!
 
@@ -1354,7 +1439,7 @@ To install under the [X Window System](https://www.x.org/):
 
 - Store the above snippets in a file and pass it in:
 
-        $ xrdb -merge YOUR_FILE_CONTAINING_ABOVE_SNIPPETS
+        xrdb -merge YOUR_FILE_CONTAINING_ABOVE_SNIPPETS
 
 - Open new XTerm or Rxvt windows to see the changes.
 
@@ -1433,17 +1518,17 @@ Download the appropriate `colorscheme.reg` file. Open the file with a text edito
 
 ```
 Window > Apprearance
-	Font: Consolas, bold, 14-point
-	Font quality:
-		( ) Antialiased     ( ) Non-Antialiased
-		(O) ClearType       ( ) Default
+ Font: Consolas, bold, 14-point
+ Font quality:
+  ( ) Antialiased     ( ) Non-Antialiased
+  (O) ClearType       ( ) Default
 Window > Colours
-	[X] Allow terminal to specify ANSI colours
-	[X] Allow terminal to use xterm 256-colour mode
-	Indicate bolded text by changing:
-		( ) The font   (O) The colour   ( ) Both
-	[ ] Attempt to use logical palettes
-	[ ] Use system colours
+ [X] Allow terminal to specify ANSI colours
+ [X] Allow terminal to use xterm 256-colour mode
+ Indicate bolded text by changing:
+  ( ) The font   (O) The colour   ( ) Both
+ [ ] Attempt to use logical palettes
+ [ ] Use system colours
 ```
 
 ### Xfce Terminal color schemes
