@@ -147,6 +147,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/ayu_light.png)
 
+### ayu Mirage
+
+![Screenshot](screenshots/ayu_mirage.png)
+
 ### Aurora
 
 ![Screenshot](screenshots/aurora.png)
@@ -446,6 +450,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/github.png)
 
+### GitHub Dark
+
+![Screenshot](screenshots/GitHub_Dark.png)
+
 ### Glacier
 
 ![Screenshot](screenshots/glacier.png)
@@ -481,6 +489,18 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Harper
 
 ![Screenshot](screenshots/harper.png)
+
+### HaX0R_R3D
+
+![Screenshot](screenshots/HaX0R_R3D.png)
+
+### HaX0R_GR33N
+
+![Screenshot](screenshots/HaX0R_GR33N.png)
+
+### HaX0R_BLUE
+
+![Screenshot](screenshots/HaX0R_BLUE.png)
 
 ### Highway
 
@@ -605,6 +625,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Man Page
 
 ![Screenshot](screenshots/man_page.png)
+
+### Mariana
+
+![Screenshot](screenshots/mariana.png)
 
 ### Material
 
@@ -753,6 +777,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Pencil Light
 
 ![Screenshot](screenshots/pencil_light.png)
+
+### Peppermint
+
+![Screenshot](screenshots/Peppermint.png)
 
 ### Piatto Light
 
@@ -1398,6 +1426,16 @@ The Sublette theme was created by [sublee](https://github.com/sublee).
 The UltraDark theme was created by [Kasper](https://github.com/Kasper-Liu).
 
 The FairyFloss theme was created by [rebecabordini](https://github.com/rebecabordini) based on [sailorhg](https://sailorhg.github.io/fairyfloss/) VS Code theme.
+
+The Mariana theme was adapted from the [Sublime Text](https://www.sublimetext.com/) theme of the same name.
+
+The themes HaX0R_R3D, HaX0R_GR33N and HaX0R_BLUE were created by [Pratik](https://github.com/pratikmullick)
+
+The Ayu Mirage theme was adapted from the [VS Code theme](https://github.com/ayu-theme/vscode-ayu) of the same name.
+
+The Peppermint theme was created by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint) and adapted for iTerm by [dotzero](https://github.com/dotzero/iTerm-2-Peppermint).
+
+The GitHub Dark theme was created by [Al Duncanson](https://github.com/alDuncanson)
 
 If there are other color schemes you'd like to see included, drop me a line!
 

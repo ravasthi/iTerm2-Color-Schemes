@@ -5,6 +5,7 @@ from glob import glob
 
 from os.path import basename, splitext, join
 
+import tilda_converter
 import xrdb2konsole
 import xrdb2terminator
 import xrdb2Xresources
@@ -22,6 +23,7 @@ import xrdb2windowsterminal
 import xrdb2dynamic_color
 import xrdb2alacritty
 import xrdb2electerm
+import xrdb2vscode
 
 if __name__ == '__main__':
 
@@ -68,3 +70,7 @@ if __name__ == '__main__':
     print('OK --> ' + '../alacritty/')
     xrdb2electerm.main('../xrdb/', '../electerm/')
     print('OK --> ' + '../electerm/')
+    xrdb2vscode.main('../xrdb/', '../vscode/')
+    print('OK --> ' + '../vscode/')
+    tilda_converter.main('../schemes/', '../tilda/')
+    print('OK --> ' + '../tilda/')
