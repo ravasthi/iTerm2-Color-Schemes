@@ -644,6 +644,10 @@
 
 ![image](nord.png)
 
+`nord-light.png`
+
+![image](nord_light.png)
+
 `novel.png`
 
 ![image](novel.png)
@@ -771,6 +775,10 @@
 `relaxed.png`
 
 ![image](relaxed.png)
+
+`Retro.png`
+
+![image](Retro.png)
 
 `rippedcasts.png`
 
@@ -1039,4 +1047,3 @@
 `zenburn.png`
 
 ![image](zenburn.png)
-

@@ -655,6 +655,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/material_darker.png)
 
+### MaterialDesignColors
+
+![Screenshot](screenshots/material_design_colors.png)
+
 ### MaterialOcean
 
 ![Screenshot](screenshots/material_ocean.png)
@@ -746,6 +750,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Nord
 
 ![Screenshot](screenshots/nord.png)
+
+### Nord-light
+
+![Screenshot](screenshots/nord_light.png)
 
 ### Obsidian
 
@@ -870,6 +878,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Relaxed
 
 ![Screenshot](screenshots/relaxed.png)
+
+### Retro
+
+![Screenshot](screenshots/Retro.png)
 
 ### Rippedcasts
 

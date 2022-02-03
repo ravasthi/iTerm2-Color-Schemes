@@ -174,6 +174,8 @@ MaterialDarker and DraculaPlus themes were added by [jos3s](https://github.com/j
 
 The MaterialOcean theme was found [here](https://github.com/kaicataldo/material.vim/blob/master/terminal-colors/iterm2/material-ocean.itermcolors) and was ported by [fr3fou](https://github.com/fr3fou)
 
+The MaterialDesignColors theme was created by [MartinSeeler](https://www.martinseeler.com/iterm2-material-design)
+
 The theme Mathias was created by [mathiasbynens](https://github.com/mathiasbynens/dotfiles)
 
 The Matrix theme series were created by [Jim Xu](https://github.com/i3d) inspired by the famous Matrix movie series.
@@ -201,6 +203,8 @@ The Night Owlish Light theme was created by [praveenpuglia](https://github.com/p
 The Nocturnal Winter theme was created by [Shriram Balaji](https://github.com/Shriram-Balaji)
 
 Nord theme were added by [Teraskull](https://github.com/Teraskull)
+
+Nord-light were added by [brorbw](https://github.com/brorbw/nord-light-iterm2)
 
 The Obsidian theme was on my hard drive and I don't recall where it came from. If anyone knows, ping me and I'll link back to the author(s).
 
@@ -239,6 +243,8 @@ The [Raycast](https://raycast.com) Dark/Light themes were created by [thomaspaul
 The Rebecca theme was created [vic](https://github.com/vic) based on his [emacs rebecca-theme](https://github.com/vic/rebecca-theme)
 
 The Red Planet theme was created by [ibrokemypie](https://github.com/ibrokemypie) based on [eliquious](https://github.com/eliquious)'s [Red Planet](https://github.com/eliquious/Red-Planet-Theme) Sublime Text theme.
+
+The Retro theme was created by [Rob Latour](https://github.com/roblatour)
 
 The Rippedcasts theme was created by [mdw123](https://github.com/mdw123/rippedcasts)
 
