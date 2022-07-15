@@ -14,6 +14,8 @@ The Alabaster theme was created by [mkaschenko](https://github.com/mkaschenko) b
 
 The Andromeda theme was created by [memije](https://github.com/memije) based on [EliverLara](https://github.com/EliverLara/)'s [Andromeda](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda) VS Code theme.
 
+The Arcoiris theme was created by [some random guy](https://github.com/indyandie)
+
 The Argonaut theme was created by [effkay](https://github.com/effkay/iTerm-argonaut)
 
 The Arthur, N0tch2k, Pnevma, Square, and Wryan themes were created by [baskerville](https://github.com/baskerville/iTerm-2-Color-Themes)
@@ -124,6 +126,8 @@ The Gruvbox Dark theme was created by [morhetz](https://github.com/morhetz) and 
 
 The Gruvbox Light theme was created by [morhetz](https://github.com/morhetz) and added by [reynn](https://github.com/reynn)
 
+The Grey-green theme was created by [lee](https://github.com/yg66)
+
 The Guezwhoz theme was created by [Egor Lem](https://github.com/guesswhozzz/guezwhoz-iterm2-theme)
 
 The theme Hurtado was found [here](https://github.com/juanghurtado/dotfiles).
@@ -194,6 +198,8 @@ The theme Monokai Vivid was created by [vitalymak](https://github.com/vitalymak/
 
 The theme Neopolitan was created by [daytonn](https://github.com/daytonn/iTerm2-Color-Schemes)
 
+The theme Neon was created by [phosphorcube](https://github.com/phosphorcube/iTerm2-Color-Schemes)
+
 The Neutron theme was created by [Ch4s3](https://github.com/Ch4s3/iTerm2-Neutron)
 
 The NightLion themes were created by [Curvve Media](http://www.curvve.com/blog/category/themes/)
@@ -209,6 +215,8 @@ Nord-light were added by [brorbw](https://github.com/brorbw/nord-light-iterm2)
 The Obsidian theme was on my hard drive and I don't recall where it came from. If anyone knows, ping me and I'll link back to the author(s).
 
 The OceanicMaterial theme was created by [rahulpatel](https://github.com/rahulpatel)
+
+The Oceanic Next theme was created by [mhartington](https://github.com/mhartington/oceanic-next-iterm)
 
 The One Half themes were created by [sonph](https://github.com/sonph), based on Atom's One with some tweakings.
 
@@ -294,6 +302,8 @@ The Thayer Bright theme was found [here](https://github.com/t3chnoboy/thayer-bri
 
 The theme Tinacious Design was created by [Tina Holly](https://tinaciousdesign.com)
 
+The Tokyo Night themes were created by [folke](https://github.com/folke/tokyonight.nvim)
+
 The Tomorrow themes were created by [chriskempson](https://github.com/chriskempson/tomorrow-theme/tree/master/iTerm2)
 
 The Tomorrow Night Burns theme were created by [ashwinv11](https://github.com/ashwinv11/)
@@ -323,3 +333,5 @@ The WildCherry theme was created by [mashaal](https://github.com/mashaal/wild-ch
 The Wombat theme was created by [djoyner](https://github.com/djoyner/iTerm2-wombat)
 
 The scheme Zenburn was inspired by the [Zenburn](http://sunaku.github.io/zenburn-terminal-color-scheme.html) version created by Suraj N. Kurapati.
+
+The Zenbones schemes ( duckbones, kanagawabones, neobones_dark, neobones_light, seoulbones_dark, seoulbones_light, vimbones, zenbones, zenbones_dark, zenbones_light, zenburned, zenwritten_dark, zenwritten_light) were taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)

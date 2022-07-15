@@ -664,6 +664,10 @@
 
 ![image](oceanic_material.png)
 
+`oceanic_next.png`
+
+![image](oceanic_next.png)
+
 `ollie.png`
 
 ![image](ollie.png)
@@ -943,6 +947,18 @@
 `tinacious_design_light.png`
 
 ![image](tinacious_design_light.png)
+
+`tokyonight.png`
+
+![image](tokyonight.png)
+
+`tokyonight-storm.png`
+
+![image](tokyonight-storm.png)
+
+`tokyonight-day.png`
+
+![image](tokyonight-day.png)
 
 `tomorrow.png`
 

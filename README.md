@@ -127,6 +127,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/andromeda.png)
 
+### Arcoiris
+
+![Screenshot](screenshots/arcoiris.png)
+
 ### Argonaut
 
 ![Screenshot](screenshots/argonaut.png)
@@ -319,7 +323,7 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/dark_pastel.png)
 
-## Dark+
+### Dark+
 
 ![Screenshot](screenshots/dark_plus.png)
 
@@ -370,6 +374,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Dracula+
 
 ![Screenshot](screenshots/Dracula+.png)
+
+### Duckbones
+
+![Screenshot](screenshots/duckbones.png)
 
 ### Duotone Dark
 
@@ -478,6 +486,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Grass
 
 ![Screenshot](screenshots/grass.png)
+
+### Grey-green
+
+![Screenshot](screenshots/Grey-green.png)
 
 ### Gruvbox Dark
 
@@ -590,6 +602,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### Jubi
 
 ![Screenshot](screenshots/jubi.png)
+
+### Kanagawabones
+
+![Screenshot](screenshots/kanagawabones.png)
 
 ### Kibble
 
@@ -719,6 +735,18 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/n0tch2k.png)
 
+### Neobones Dark
+
+![Screenshot](screenshots/neobones_dark.png)
+
+### Neobones Light
+
+![Screenshot](screenshots/neobones_light.png)
+
+### Neon
+
+![Screenshot](screenshots/neon.png)
+
 ### Neopolitan
 
 ![Screenshot](screenshots/neopolitan.png)
@@ -766,6 +794,10 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 ### OceanicMaterial
 
 ![Screenshot](screenshots/oceanic_material.png)
+
+### Oceanic Next
+
+![Screenshot](screenshots/oceanic_next.png)
 
 ### Ollie
 
@@ -915,6 +947,14 @@ It would also be very helpful if you `cd tools/` and run `python3 update_all.py`
 
 ![Screenshot](screenshots/sea_shells.png)
 
+### Seoulbones Dark
+
+![Screenshot](screenshots/seoulbones_dark.png)
+
+### Seoulbones Light
+
+![Screenshot](screenshots/seoulbones_light.png)
+
 ### Seti
 
 ![Screenshot](screenshots/seti.png)
@@ -1056,6 +1096,18 @@ more information.
 
 ![Screenshot](screenshots/tinacious_design_light.png)
 
+### TokyoNight
+
+![Screenshot](screenshots/tokyonight.png)
+
+### TokyoNight Storm
+
+![Screenshot](screenshots/tokyonight-storm.png)
+
+### TokyoNight Day
+
+![Screenshot](screenshots/tokyonight-day.png)
+
 ### Tomorrow
 
 ![Screenshot](screenshots/tomorrow.png)
@@ -1124,6 +1176,10 @@ more information.
 
 ![Screenshot](screenshots/vibrant_ink.png)
 
+### Vimbones
+
+![Screenshot](screenshots/vimbones.png)
+
 ### Violet Light
 
 ![Screenshot](screenshots/violet_light.png)
@@ -1156,9 +1212,33 @@ more information.
 
 ![Screenshot](screenshots/wryan.png)
 
+### Zenbones
+
+![Screenshot](screenshots/zenbones.png)
+
+### Zenbones Dark
+
+![Screenshot](screenshots/zenbones_dark.png)
+
+### Zenbones Light
+
+![Screenshot](screenshots/zenbones_light.png)
+
 ### Zenburn
 
 ![Screenshot](screenshots/zenburn.png)
+
+### Zenburned
+
+![Screenshot](screenshots/zenburned.png)
+
+### Zenwritten Dark
+
+![Screenshot](screenshots/zenwritten_dark.png)
+
+### Zenwritten Light
+
+![Screenshot](screenshots/zenwritten_light.png)
 
 ## Credits
 
