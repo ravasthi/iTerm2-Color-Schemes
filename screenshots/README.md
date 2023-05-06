@@ -32,6 +32,10 @@
 
 ![image](andromeda.png)
 
+`apple-classic.png`
+
+![image](apple-classic.png)
+
 `argonaut.png`
 
 ![image](argonaut.png)
@@ -167,6 +171,22 @@
 `calamity.png`
 
 ![image](calamity.png)
+
+`catppuccin-frappe`
+
+![image](catppuccin-frappe.png)
+
+`catppuccin-latte`
+
+![image](catppuccin-latte.png)
+
+`catppuccin-macchiato`
+
+![image](catppuccin-macchiato.png)
+
+`catppuccin-mocha`
+
+![image](catppuccin-mocha.png)
 
 `CGA.png`
 
@@ -307,6 +327,10 @@
 `espresso_libre.png`
 
 ![image](espresso_libre.png)
+
+`everblush.png`
+
+![image](everblush.png)
 
 `fahrenheit.png`
 
@@ -787,6 +811,18 @@
 `rippedcasts.png`
 
 ![image](rippedcasts.png)
+
+`rose-pine.png`
+
+![image](rose-pine.png)
+
+`rose-pine-dawn.png`
+
+![image](rose-pine-dawn.png)
+
+`rose-pine-moon.png`
+
+![image](rose-pine-moon.png)
 
 `rouge_2.png`
 

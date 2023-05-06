@@ -14,6 +14,8 @@ The Alabaster theme was created by [mkaschenko](https://github.com/mkaschenko) b
 
 The Andromeda theme was created by [memije](https://github.com/memije) based on [EliverLara](https://github.com/EliverLara/)'s [Andromeda](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda) VS Code theme.
 
+The Apple Classic theme was created by [Brian Meyer](https://github.com/CodeMonkeyBrian)
+
 The Arcoiris theme was created by [some random guy](https://github.com/indyandie)
 
 The Argonaut theme was created by [effkay](https://github.com/effkay/iTerm-argonaut)
@@ -51,6 +53,8 @@ The Bright Lights theme was created by [tw15egan](https://github.com/tw15egan)
 The Broadcast theme was created by [vinkla](https://github.com/vinkla/broadcast-theme)
 
 The Calamity and Rapture themes were created by [Pustur](https://github.com/Pustur)
+
+The Catppuccin themes were created by the [Catppuccin](https://github.com/orgs/catppuccin/people) team
 
 The CGA theme was created by [jdhmtl](https://github.com/jdhmtl).
 
@@ -93,6 +97,8 @@ The Elementary OS theme was created by [elementary.io](https://elementary.io/) a
 The ENCOM theme was created by [Josh Braun](http://wideaperture.net)
 
 The Espresso Libre theme was created by [jurgemaister](https://github.com/jurgemaister/Espresso-Libre)
+
+The Everblush theme was created by [Mangeshrex](https://github.com/Mangeshrex)
 
 The Fahrenheit theme was created by [jonascarpay](https://github.com/jonascarpay) based on [fcpg](https://github.com/fcpg)'s [vim-fahrenheit](https://github.com/fcpg/vim-fahrenheit) Vim theme.
 
@@ -257,6 +263,8 @@ The Red Planet theme was created by [ibrokemypie](https://github.com/ibrokemypie
 The Retro theme was created by [Rob Latour](https://github.com/roblatour)
 
 The Rippedcasts theme was created by [mdw123](https://github.com/mdw123/rippedcasts)
+
+The Rosé Pine themes were created by the [Rosé Pine](https://github.com/orgs/rose-pine/people) team
 
 The Rouge 2 theme was created by [Josef Aidt](https://github.com/josefaidt/rouge-theme) and ported to iTerm2 by [Sam Rose](https://github.com/samrose3).
 
