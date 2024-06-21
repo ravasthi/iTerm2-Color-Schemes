@@ -19,11 +19,12 @@
   - [Visual Studio Code color schemes](#visual-studio-code-color-schemes)
   - [Windows Terminal color schemes](#windows-terminal-color-schemes)
   - [Alacritty color schemes](#alacritty-color-schemes)
+  - [Ghostty color schemes](#ghostty-color-schemes)
   - [Termux color schemes](#termux-color-schemes)
 
 ## Intro
 
-This is a set of color schemes for iTerm (aka iTerm2). It also includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty
+This is a set of color schemes for iTerm (aka iTerm2). It also includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, Ghostty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty
 
 Screenshots below and in the [screenshots](screenshots/) directory.
 
@@ -86,23 +87,23 @@ There are 3 ways to install an iTerm theme:
 Have a great iTerm theme? Send it to me via a Pull Request!
 
 1. Get your theme's`.itermcolors` file.
-    - Launch iTerm 2
-    - Type CMD+i (⌘+i)
-    - Navigate to **Colors** tab
-    - Click on **Color Presets**
-    - Click on **Export**
-    - Save the .itermcolors file
+   - Launch iTerm 2
+   - Type CMD+i (⌘+i)
+   - Navigate to **Colors** tab
+   - Click on **Color Presets**
+   - Click on **Export**
+   - Save the .itermcolors file
 2. Put your theme file into `/schemes/`
-    - `mv <your-itermcolors-file> schemes/`
+   - `mv <your-itermcolors-file> schemes/`
 3. Generate other formats for your theme using the `gen.py` script.
-    - `cd tools/ && python3 gen.py` OR
-    - `cd tools/ && ./gen.py`
+   - `cd tools/ && python3 gen.py` OR
+   - `cd tools/ && ./gen.py`
 4. If you only want to generate files for your theme, you can specify this with the `-s` flag.
-    - `./gen.py -s Dracula`
+   - `./gen.py -s Dracula`
 5. Get a screenshot of your theme using the `screenshotTable.sh` script and ImageMagick. **For screenshot consistency, please have your font set to 13pt Monaco and no transparency on the window.**
-    - `cd tools/ && ./screenshotTable.sh` - this will create a color table for your theme that you can screenshot.
-    - Use ImageMagick (or some other tool) to resize your image for consistency - `mogrify -resize 600x300\! <path-to-your-screenshot>`
-    - Move your screenshot into `screenshots/` - `mv <your-screenshot> screenshots/`
+   - `cd tools/ && ./screenshotTable.sh` - this will create a color table for your theme that you can screenshot.
+   - Use ImageMagick (or some other tool) to resize your image for consistency - `mogrify -resize 600x300\! <path-to-your-screenshot>`
+   - Move your screenshot into `screenshots/` - `mv <your-screenshot> screenshots/`
 6. Update `README.md` and `screenshots/README.md` to include your theme and screenshot. Also update `CREDITS.md` to credit yourself for your contribution.
 
 ### How to add new template
@@ -111,6 +112,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 1. Get config file from your terminal/editor/etc.
 2. Change actual colors in config to template placeholders from the list below.
+
 ```
   {{ Background_Color }}
   {{ Bold_Color }}
@@ -136,7 +138,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
   {{ Ansi_14_Color }} // bright cyan
   {{ Ansi_15_Color }} // bright white
 
-  Eeach color has these fields:
+  Each color has these fields:
     - {{ Background_Color.hex }} for hex representation
     - {{ Background_Color.rgb }} for rgb representation as a "(r, g, b)" string
     - {{ Backgroun_Color.guint16 }} for guint16 representation
@@ -145,10 +147,13 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
     - {{ Guint16_Palette }} with a string containing all ansi colors as guint16 values
     - {{ Dark_Theme }} which contains a sign that the theme is dark
 ```
+
 3. If you need a new value type for color, add it too `tools/converter.py`
 4. Put your template file into `tool/templates`. A folder with schemas will be created based on the filename. And the file extension will remain with all generated ones. Example: `editor.ext` file will generate schemas as `editor/scheme_name.ext`
 5. Generate all existing themes for all templates `cd tools/ && ./gen.py`. Or, if you only want to generate schemas for your template, you can use the `-t` flag.
-  - `./gen.py -t kitty`
+
+- `./gen.py -t kitty`
+
 6. If in the process you had to add new dependencies or update the version of python, do not forget to indicate this in `requirements.txt` or `.python-version`.
 
 ## Screenshots
@@ -160,6 +165,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### 3024 Night
 
 ![Screenshot](screenshots/3024_night.png)
+
+### Aardvark Blue
+
+![Screenshot](screenshots/aardvark_blue.png)
 
 ### Abernathy
 
@@ -189,10 +198,13 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/andromeda.png)
 
-
 ### Apple Classic
 
 ![Screenshot](screenshots/apple-classic.png)
+
+### Apple System Colors
+
+![Screenshot](screenshots/apple-system-colors.png)
 
 ### Arcoiris
 
@@ -364,6 +376,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### CrayonPonyFish
 
+### CutiePro
+
+![Screenshot](screenshots/CutiePro.png)
+
 ![Screenshot](screenshots/crayon_pony_fish.png)
 
 ### Cyberdyne
@@ -385,6 +401,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Darkside
 
 ![Screenshot](screenshots/darkside.png)
+
+### Dayfox
+
+![Screenshot](screenshots/dayfox.png)
 
 ### Deep
 
@@ -474,9 +494,21 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/fahrenheit.png)
 
+### Farmhouse Dark
+
+![Screenshot](screenshots/farmhouse-dark.png)
+
+### Farmhouse Light
+
+![Screenshot](screenshots/farmhouse-light.png)
+
 ### Fideloper
 
 ![Screenshot](screenshots/fideloper.png)
+
+### Firefly Traditional
+
+![Screenshot](screenshots/firefly-traditional.png)
 
 ### FirefoxDev
 
@@ -497,6 +529,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Flatland
 
 ![Screenshot](screenshots/flatland.png)
+
+### Flexoki Dark
+
+![Screenshot](screenshots/flexoki-dark.png)
+
+### Flexoki Light
+
+![Screenshot](screenshots/flexoki-light.png)
 
 ### Floraverse
 
@@ -718,6 +758,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/konsolas.png)
 
+### Kurokula
+
+![Screenshot](screenshots/kurokula.png)
+
 ### Lab Fox
 
 ![Screenshot](screenshots/lab_fox.png)
@@ -798,6 +842,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/medallion.png)
 
+### Mellifluous
+
+![Screenshot](screenshots/mellifluous.png)
+
 ### Midnight In Mojave
 
 ![Screenshot](screenshots/midnight_in_mojave.png)
@@ -854,6 +902,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/neutron.png)
 
+### Nightfox
+
+![Screenshot](screenshots/nightfox.png)
+
 ### NightLion v1
 
 ![Screenshot](screenshots/nightlion_v1.png)
@@ -885,6 +937,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Nord-light
 
 ![Screenshot](screenshots/nord_light.png)
+
+### NvimDark
+
+![Screenshot](screenshots/NvimDark.png)
+
+### NvimLight
+
+![Screenshot](screenshots/NvimLight.png)
 
 ### Obsidian
 
@@ -1163,6 +1223,10 @@ more information.
 
 ![Screenshot](screenshots/subliminal.png)
 
+### Sugarplum
+
+![Screenshot](screenshots/Sugarplum.png)
+
 ### Sundried
 
 ![Screenshot](screenshots/sundried.png)
@@ -1194,6 +1258,10 @@ more information.
 ### Teerb
 
 ![Screenshot](screenshots/teerb.png)
+
+### Terafox
+
+![Screenshot](screenshots/terafox.png)
 
 ### Terminal Basic
 
@@ -1290,6 +1358,10 @@ more information.
 ### Vaughn
 
 ![Screenshot](screenshots/vaughn.png)
+
+### Vesper
+
+![Screenshot](screenshots/vesper.png)
 
 ### VibrantInk
 
@@ -1550,7 +1622,13 @@ Copy the theme content from `windowsterminal/` and paste the content to your `pr
 
 ### Alacritty color schemes
 
-Copy the theme content from `alacritty/` and paste the content to your [alacritty config file](https://github.com/alacritty/alacritty/blob/master/alacritty.yml).
+Copy the theme content from `alacritty/` and paste the content to your alacritty config file, at `~/.config/alacritty/alacritty.toml`. You can also set your theme by adding the following line at your config's 1st line `import = ["~/.config/alacritty/themes/mytheme.toml"]`.
+
+If you still need a color scheme with .yml, you can get it [here](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/56d74c3e29040e44ff7e379a84e0fa3a57b3e903/alacritty).
+
+### Ghostty color schemes
+
+Copy the theme content from `ghostty/` and paste the content in your Ghostty config file, at `~/.config/ghostty/config`.
 
 ### Rio color schemes
 
@@ -1558,6 +1636,7 @@ Copy the theme file from `rio/` and paste to your rio theme config directory (ty
 Then specify the name of your theme in the `theme` field in the [config file](https://raphamorim.io/rio/docs/#configuration-file).
 
 ### Termux color schemes
+
 Copy the theme content from `termux/` and paste the content to `~/.termux` directory as `~/.termux/colors.properties` file and run `termux-reload-settings` to apply the theme.
 
 ### Previewing color schemes

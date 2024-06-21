@@ -8,6 +8,10 @@
 
 ![image](3024_night.png)
 
+`Aardvark Blue.png`
+
+![image](aardvark_blue.png)
+
 `abernathy.png`
 
 ![image](abernathy.png)
@@ -35,6 +39,10 @@
 `apple-classic.png`
 
 ![image](apple-classic.png)
+
+`apple-system-colors.png`
+
+![image](apple-system-colors.png)
 
 `argonaut.png`
 
@@ -228,6 +236,10 @@
 
 ![image](darkside.png)
 
+`dayfox.png`
+
+![image](dayfox.png)
+
 `deep.png`
 
 ![image](deep.png)
@@ -304,6 +316,14 @@
 
 ![image](everblush.png)
 
+`farmhouse-dark.png`
+
+![image](farmhouse-dark.png)
+
+`farmhouse-light.png`
+
+![image](farmhouse-light.png)
+
 `fahrenheit.png`
 
 ![image](fahrenheit.png)
@@ -315,6 +335,10 @@
 `fideloper.png`
 
 ![image](fideloper.png)
+
+`firefly-traditional.png`
+
+![image](firefly-traditional.png)
 
 `firefox_dev.png`
 
@@ -335,6 +359,14 @@
 `flatland.png`
 
 ![image](flatland.png)
+
+`flexoki-dark.png`
+
+![image](flexoki-dark.png)
+
+`flexoki-light.png`
+
+![image](flexoki-light.png)
 
 `floraverse.png`
 
@@ -612,6 +644,10 @@
 
 ![image](medallion.png)
 
+`mellifluous.png`
+
+![image](mellifluous.png)
+
 `midnight_in_mojave.png`
 
 ![image](midnight_in_mojave.png)
@@ -656,6 +692,10 @@
 
 ![image](neutron.png)
 
+`nightfox.png`
+
+![image](nightfox.png)
+
 `night_owlish_light.png`
 
 ![image](night_owlish_light.png)
@@ -687,6 +727,14 @@
 `novel.png`
 
 ![image](novel.png)
+
+`NvimDark.png`
+
+![image](NvimDark.png)
+
+`NvimLight.png`
+
+![image](NvimLight.png)
 
 `obsidian.png`
 
@@ -948,6 +996,10 @@
 
 ![image](subliminal.png)
 
+`sugarplum.png`
+
+![image](sugarplum.png)
+
 `sundried.png`
 
 ![image](sundried.png)
@@ -979,6 +1031,10 @@
 `teerb.png`
 
 ![image](teerb.png)
+
+`terafox.png`
+
+![image](terafox.png)
 
 `terminal_basic.png`
 
@@ -1075,6 +1131,10 @@
 `vaughn.png`
 
 ![image](vaughn.png)
+
+`vesper.png`
+
+![image](vesper.png)
 
 `vibrant_ink.png`
 
