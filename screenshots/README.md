@@ -220,6 +220,10 @@
 
 ![image](cyberpunk.png)
 
+`cyberpunk_scarlet_protocol`
+
+![image](cyberpunk_scarlet_protocol.png)
+
 `dark_pastel.png`
 
 ![image](dark_pastel.png)
@@ -247,6 +251,10 @@
 `desert.png`
 
 ![image](desert.png)
+
+`dimidium.png`
+
+![image](dimidium.png)
 
 `dimmed_monokai.png`
 
@@ -415,6 +423,10 @@
 `grass.png`
 
 ![image](grass.png)
+
+`gruber-darker.png`
+
+![image](gruber-darker.png)
 
 `gruvbox_dark.png`
 

@@ -390,6 +390,9 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/cyberpunk.png)
 
+### Cyberpunk Scarlet Protocol
+1[Screenshot](screenshots/cyberpunk_scarlet_protocol.png)
+
 ### Dark Pastel
 
 ![Screenshot](screenshots/dark_pastel.png)
@@ -413,6 +416,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Desert
 
 ![Screenshot](screenshots/desert.png)
+
+### Dimidium
+
+![Screenshot](screenshots/dimidium.png)
 
 ### DimmedMonokai
 
@@ -589,6 +596,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Grey-green
 
 ![Screenshot](screenshots/Grey-green.png)
+
+### Gruber Darker
+
+![Screenshot](screenshots/gruber-darker.png)
 
 ### Gruvbox Dark
 
@@ -981,6 +992,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Overnight Slumber
 
 ![Screenshot](screenshots/overnight_slumber.png)
+
+### Oxocarbon
+
+![Screenshot](screenshots/oxocarbon.png)
 
 ### Palenight High Contrast
 

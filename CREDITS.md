@@ -80,7 +80,11 @@ The CutiePro theme was created by [jezzy](https://github.com/jezzy-ultra)
 
 The Cyberpunk theme was created by [Murderlon](https://github.com/Murderlon/cyberpunk-iterm)
 
+The Cyberpunk Scarlet Protocol theme was created by [garrettmroberts](https://github.com/garrettmroberts). It is based on the Scarlet Protocol variation of the [Cyberpunk VsCode theme](https://github.com/prometheux-ar/cyberpunk).
+
 The Deep theme was created by [ADoyle](https://github.com/adoyle-h)
+
+The Dimidium theme was created by [dofuuz](https://github.com/dofuuz/dimidium)
 
 The Django theme was created by [Jannis Leidel](https://code.djangoproject.com/wiki/TextMate). The original colors schemes were created by [threespot.com](https://threespot.com) for the Django Software Foundation
 
@@ -139,6 +143,8 @@ The "Galizur" theme was crafted by [Raziel Anarki](https://github.com/razielanar
 The scheme Github was inspired by the color theme palette used at [Github](https://github.com/) for their UI and in some of their mascot images.
 
 The GitHub Dark theme was created by [Al Duncanson](https://github.com/alDuncanson)
+
+The Gruber Darker theme was inspired by [Alexey Kutepov](https://github.com/rexim)
 
 The Gruvbox Dark theme was created by [morhetz](https://github.com/morhetz) and added by [saccarosium](https://github.com/mcchrish)
 
@@ -253,6 +259,8 @@ The One Half themes were created by [sonph](https://github.com/sonph), based on 
 The Operator Mono Dark was ported from [vharadkou](https://github.com/vharadkou/OperatorMonoDarkTheme) by [dreamyguy](https://github.com/dreamyguy/iterm-theme-operator-mono-dark)
 
 The Overnight Slumber theme was created by [Cristian Velasquez Ramos](https://github.com/cevr/overnight) and ported to iTerm2 by [Gomah](https://github.com/Gomah/overnight-slumber-iterm).
+
+The Oxocarbon theme was created by [Nyoom Engineering](https://github.com/nyoom-engineering) and ported to iTerm2 by [Hanna Rose](https://github.com/hqnna).
 
 The PaleNight theme was created by [Mattia Astorino](https://github.com/equinusocio) and ported to iTerm2 by [Kasper](https://github.com/Kasper-Liu)
 
