@@ -1,5 +1,7 @@
 # Credits
 
+The 0x96f theme is created by [Filip](https://github.com/filipjanevski)
+
 The 3024 Day and 3024 Night themes were created by [0x3024](https://github.com/0x3024)
 
 The Aardvark Blue theme was created by [joshka](https://github.com/joshka)
@@ -10,6 +12,8 @@ The Adventure theme was created by [hongzimao](https://github.com/hongzimao/iTer
 
 The themes AdventureTime, AlienBlood, BirdsOfParadise, Ciapre, CrayonPonyFish, DimmedMonokai, Earthsong, Elemental, FishTank, FrontEndDelight, FunForrest, Grape, Highway, IC_Green_PPL, IC_Orange_PPL, Lavandula, Medallion, MonaLisa, Ollie, Royal, SeaShells, Shaman, SleepyHollow, SoftServer, Sundried, ToyChest, Treehouse, and Urple were created by [zdj](https://github.com/zdj/themes/tree/master/iterm2)
 
+The themes Adwaita and Adwaita Dark are based on the GNOME desktop environment's default Adwaita palette and were adapted for iTerm2 by [cnavajas](https://github.com/cnavajas), with inspiration from vixalien's palette.
+
 The Afterglow theme was created by [yabatadesign](https://github.com/YabataDesign/afterglow-itermcolors)
 
 The Alabaster theme was created by [mkaschenko](https://github.com/mkaschenko) based on [tonsky](https://github.com/tonsky)'s [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) Sublime 3 theme.
@@ -19,6 +23,8 @@ The Andromeda theme was created by [memije](https://github.com/memije) based on 
 The Apple Classic theme was created by [Brian Meyer](https://github.com/CodeMonkeyBrian)
 
 The Apple System Colors theme was created by [Jeremy Bahadirli](https://github.com/jeremybahadirli)
+
+The Apple System Colors Light theme was created by [Aaron-212](https://github.com/Aaron-212). It is based on the Apple System Colors theme.
 
 The Arcoiris theme was created by [some random guy](https://github.com/indyandie)
 
@@ -31,6 +37,8 @@ The AtelierSulphurpool theme was created by [atelierbram](http://atelierbram.git
 The Atom, Brogrammer, Glacier and Darkside themes were created by [bahlo](https://github.com/bahlo/iterm-colors)
 
 The AtomOneLight theme was created by [iamstarkov](https://github.com/iamstarkov)
+
+The Aura theme was created by [daltonmenezes](https://github.com/daltonmenezes)
 
 The Aurora theme was created by [fcsmJS](https://github.com/fcsmJS/iTerm2-Color-Schemes)
 
@@ -68,11 +76,15 @@ The ChallengerDeep theme was found [here](https://github.com/challenger-deep-the
 
 The Chester theme was created by [KH](https://github.com/spectralkh)
 
+The Citruszest theme was created by [zootedb0t](https://github.com/zootedb0t)
+
 The CLRS theme was created by [jasonlong](https://github.com/jasonlong/iterm-clrs)
 
 The Cobalt2 theme was created by [wesbos](https://github.com/wesbos/Cobalt2-iterm)
 
 The Cobalt Neon theme was created by [vazquez](https://github.com/vazquez/cobalt-neon-iterm)
+
+The CobaltNext themes were created by [davidleininger](https://github.com/davidleininger/cobaltnext-vscode) and were ported by [WardsParadox](https://github.com/WardsParadox)
 
 The coffee theme was created by [cbitterfield](https://github.com/cbitterfield)
 
@@ -82,7 +94,11 @@ The Cyberpunk theme was created by [Murderlon](https://github.com/Murderlon/cybe
 
 The Cyberpunk Scarlet Protocol theme was created by [garrettmroberts](https://github.com/garrettmroberts). It is based on the Scarlet Protocol variation of the [Cyberpunk VsCode theme](https://github.com/prometheux-ar/cyberpunk).
 
+The Dark Modern theme was created by [zasdaym](https://github.com/zasdaym). It is based on the default VS Code theme.
+
 The Deep theme was created by [ADoyle](https://github.com/adoyle-h)
+
+The Detuned theme was created by [akx](https://github.com/akx).
 
 The Dimidium theme was created by [dofuuz](https://github.com/dofuuz/dimidium)
 
@@ -102,7 +118,13 @@ The DuoTone Dark theme was created by [chibicode](http://chibicode.com) based on
 
 The Dracula theme was created by [zenorocha](https://github.com/zenorocha/dracula-theme)
 
+The Electron Highlighter theme was created by [mikemcbride](https://github.com/mikemcbride)
+
+The Elegant theme was created by [lukgri](https://github.com/lukgri)
+
 The Elementary OS theme was created by [elementary.io](https://elementary.io/) and added by [987poiuytrewq](https://github.com/987poiuytrewq)
+
+The Embers theme was created by [plyght](https://peril.lol)
 
 The ENCOM theme was created by [Josh Braun](http://wideaperture.net)
 
@@ -110,9 +132,11 @@ The Espresso Libre theme was created by [jurgemaister](https://github.com/jurgem
 
 The Everblush theme was created by [Mangeshrex](https://github.com/Mangeshrex)
 
+The Everforest Dark - Hard theme was found [here](https://github.com/icewind/everforest.iterm2) and ported by [NicolasGB](https://github.com/NicolasGB)
+
 The Fahrenheit theme was created by [jonascarpay](https://github.com/jonascarpay) based on [fcpg](https://github.com/fcpg)'s [vim-fahrenheit](https://github.com/fcpg/vim-fahrenheit) Vim theme.
 
-The Farmhouse themes where created by [mattly](https://github.com/mattly) https://github.com/mattly/iterm-colors-farmhouse based on an original Emacs theme.
+The Farmhouse themes where created by [mattly](https://github.com/mattly) <https://github.com/mattly/iterm-colors-farmhouse> based on an original Emacs theme.
 
 The FairyFloss theme was created by [rebecabordini](https://github.com/rebecabordini) based on [sailorhg](https://sailorhg.github.io/fairyfloss/) VS Code theme.
 
@@ -140,9 +164,15 @@ The Galaxy theme was created by [jglovier](https://github.com/jglovier/galaxy-th
 
 The "Galizur" theme was crafted by [Raziel Anarki](https://github.com/razielanarki)
 
+The Ghostty Default StyleDark theme was pulled from the Ghostty default values [Mitchell Hashimoto](https://github.com/ghostty-org/ghostty)
+
+The GitHub Dark Default, GitHub Dark Dimmed, GitHub Dark Colorblind, GitHub Dark High Contrast, GitHub Light Default, GitHub Light Colorblind, and GitHub Light High Contrast themes were added by [Antonio Camargo](https://github.com/apcamargo). These themes were converted from the [official GitHub theme](https://github.com/primer/github-vscode-theme) using the [ditto](https://github.com/campvanilla/ditto) tool.
+
 The scheme Github was inspired by the color theme palette used at [Github](https://github.com/) for their UI and in some of their mascot images.
 
 The GitHub Dark theme was created by [Al Duncanson](https://github.com/alDuncanson)
+
+The GitLab Dark, GitLab Dark Grey, and GitLab Light themes were added by [Antonio Camargo](https://github.com/apcamargo). These themes were converted from the theme created by [albertorestifo](https://github.com/albertorestifo/gitlab-webide-theme) using the [ditto](https://github.com/campvanilla/ditto) tool.
 
 The Gruber Darker theme was inspired by [Alexey Kutepov](https://github.com/rexim)
 
@@ -151,6 +181,10 @@ The Gruvbox Dark theme was created by [morhetz](https://github.com/morhetz) and 
 The Gruvbox Dark Hard theme was created by [morhetz](https://github.com/morhetz) and added by [saccarosium](https://github.com/saccarosium)
 
 The Gruvbox Light theme was created by [morhetz](https://github.com/morhetz) and added by [reynn](https://github.com/reynn)
+
+The Gruvbox Light Hard theme was created by [morhetz](https://github.com/morhetz) and added by [zasdaym](https://github.com/zasdaym)
+
+The gruvbox_material theme was created by [sainnhe](https://github.com/sainnhe) and added by [tacolegs2004](https://github.com/tacolegs2004)
 
 The Grey-green theme was created by [lee](https://github.com/yg66)
 
@@ -162,13 +196,19 @@ The Hardcore theme was created by [hardcore](https://github.com/hardcore/iTerm-c
 
 The Harper theme was created by [idleberg](https://github.com/idleberg/Harper-iTerm2)
 
+The Havn themes (Daggry and Skumring) were created by Erlend over at [Havn.blog](https://havn.blog).
+
 The themes HaX0R_R3D, HaX0R_GR33N and HaX0R_BLUE were created by [Pratik](https://github.com/pratikmullick)
+
+The heeler theme was created by [tacolegs2004](https://github.com/tacolegs2004)
 
 The Hipster Green and Jackie Brown themes were created by [Unkulunkulu](https://github.com/Unkulunkulu)
 
 The Hivacruz theme was created by [Yann Defretin](https://github.com/kinoute/hivacruz-itermcolors)
 
 The Hopscotch theme was created by [Jan T. Sott](https://github.com/idleberg/Hopscotch)
+
+The Horizon and Horizon Bright themes were added by [Antonio Camargo](https://github.com/apcamargo). These themes were converted from the theme created by [jolaleye](https://github.com/jolaleye/horizon-theme-vscode) using the [ditto](https://github.com/campvanilla/ditto) tool.
 
 The Hybrid theme was found [here](https://gist.github.com/luan/6362811)
 
@@ -185,6 +225,8 @@ The Jellybeans theme was created by [qtpi](https://github.com/qtpi/Jellybeans.it
 The JetBrains Darcula theme was created by [vitstr](https://github.com/vitstr)
 
 The Jubi theme was created by [Julia Tretel](https://github.com/jutretel)
+
+The Kanagawa themes (Kanagawa Wave & Kanagawa Dragon) were created by [rebelot](https://github.com/rebelot)
 
 The Kolorit theme was created by [thomaspaulmann](https://github.com/thomaspaulmann)
 
@@ -212,7 +254,13 @@ The theme Mathias was created by [mathiasbynens](https://github.com/mathiasbynen
 
 The Matrix theme series were created by [Jim Xu](https://github.com/i3d) inspired by the famous Matrix movie series.
 
+The Melange theme was created by [savq](https://github.com/savq) and contributed by [aronvandepol](https://github.com/aronvandepol)
+
 The Mellifluous theme was adapted by [rektdeckard](https://github.com/rektdeckard) from the NeoVim scheme of the same name by [ramojus](https://github.com/ramojus/mellifluous.nvim)
+
+The Mellow theme was created by [kvrohit](https://github.com/kvrohit).
+
+The Miasma theme was created by [xero](https://github.com/xero).
 
 The Midnight In Mojave theme was created by [OberstKrueger](https://github.com/oberstkrueger) based on the colors outlined in the [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/)
 
@@ -221,6 +269,8 @@ The Mirage theme was created by [Tristan Remy](https://github.com/tristanremy/mi
 The Misterioso theme was created by [flooose](https://github.com/flooose/misterioso-iterm2)
 
 The theme Molokai was based on the [vim colorscheme](https://github.com/tomasr/molokai) of the same name.
+
+The theme Monokai (Classic, Pro, Machine, Octagon, Ristretto, Spectrum, Light & Light Sun) was created by [Monokai](https://monokai.com/) & where taken from the official [Monokai Pro website](https://monokai.pro/iterm).
 
 The theme Monokai Soda was found [here](https://github.com/deepsweet/Monokai-Soda-iTerm).
 
@@ -242,9 +292,11 @@ The Niji theme was created by [some dude](https://github.com/indyandie) based on
 
 The Nocturnal Winter theme was created by [Shriram Balaji](https://github.com/Shriram-Balaji)
 
-Nord theme were added by [Teraskull](https://github.com/Teraskull)
+Nord theme was created by [Arctic Ice Studio](https://www.nordtheme.com/) and added by [Teraskull](https://github.com/Teraskull)
 
-Nord-light were added by [brorbw](https://github.com/brorbw/nord-light-iterm2)
+Nord-light was created by [Arctic Ice Studio](https://www.nordtheme.com/) and added by [brorbw](https://github.com/brorbw/nord-light-iterm2)
+
+The Nord-wave theme was added by [Antonio Camargo](https://github.com/apcamargo). This theme was converted from the theme created by [dimitrisnl](https://github.com/dimitrisnl/nord-wave) using the [ditto](https://github.com/campvanilla/ditto) tool.
 
 The NvimDark and NvimLight themes were added by [slavamak](https://github.com/slavamak)
 
@@ -292,6 +344,8 @@ The Red Planet theme was created by [ibrokemypie](https://github.com/ibrokemypie
 
 The Retro theme was created by [Rob Latour](https://github.com/roblatour)
 
+The RetroLegends theme created by [VeteranBV](https://github.com/VeteranBV) - A tribute to classic computer terminals including the DEC VT100 (P1 phosphor), Wyse 60 (P3 phosphor), Commodore 64, IBM 3278, Kaypro, and Osborne 1.
+
 The Rippedcasts theme was created by [mdw123](https://github.com/mdw123/rippedcasts)
 
 The Rosé Pine themes were created by the [Rosé Pine](https://github.com/orgs/rose-pine/people) team
@@ -310,15 +364,21 @@ The Slate theme was created by [deneshshan](https://github.com/deneshshan)
 
 The Smyck theme was found [here](https://github.com/hukl/Smyck-Color-Scheme)
 
+The Snazzy Soft theme was created by [liby](https://github.com/liby) inspired by [Sindre Sorhus](https://github.com/sindresorhus)'s [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy), offering a gentler color palette
+
 The scheme Solarized Darcula was inspired by the color theme created by [@rickhanlonii](https://github.com/rickhanlonii). There are two screenshots below; one with a background and one without. The background image is included in the backgrounds/ directory and the image must be manually set on the profile's Preferences->Window tab. It's hard to see from the screenshot, but it looks great!
 
 The themes Solarized Dark and Solarized Light come from the official [Solarized web site](http://ethanschoonover.com/solarized)
 
 The Solorized Dark Higher Contrast theme was created by [heisters](https://gist.github.com/heisters/1015503)
 
+The Solarized Osaka Night theme came from work by [craftzdog](https://github.com/craftzdog/solarized-osaka.nvim) and was contributed to this project by [johnstegeman](https://github.com/johnstegeman)
+
 The Spacedust theme was created by [mhallendal](https://github.com/mhallendal/spacedust-theme) and ported to iTerm by [Couto](https://github.com/Couto)
 
 The SpaceGray theme was created by [ryentzer](https://github.com/ryentzer/SpaceGray-iTerm)
+
+The SpaceGray Bright theme was created by [nicksay](https://github.com/nicksay)
 
 The SpaceGray Eighties and SpaceGray Eighties Dull themes were created by [mhkeller](https://github.com/mhkeller/spacegray-eighties-iterm)
 
@@ -331,6 +391,12 @@ The theme Subliminal was created by [gdsrosa](https://github.com/gdsrosa/sublimi
 The theme Sugarplum was created by [lemonlime0x3C33](https://github.com/lemonlime0x3C33/iTerm2-Color-Schemes-Sugarplum)
 
 The scheme Symfonic was inspired by the color scheme used in the [documentation](http://symfony.com/doc/current/book/index.html) for the [Symfony](http://www.symfony.com) PHP Framework.
+
+The [starlight](https://github.com/CosmicToast/starlight) theme was created by [toast](https://github.com/CosmicToast).
+
+The [Squirrelsong Dark](https://github.com/sapegin/squirrelsong) theme was created by [sapegin](https://github.com/sapegin).
+
+The [Srcery](https://github.com/srcery-colors) theme was created by [Roosta](https://github.com/roosta).
 
 The synthwave theme was created by [brettstil](https://github.com/brettstil/)
 
@@ -381,5 +447,7 @@ The Wilmersdorf theme was created by [sayeefm0](https://github.com/sayeefm0/iter
 The Wombat theme was created by [djoyner](https://github.com/djoyner/iTerm2-wombat)
 
 The scheme Zenburn was inspired by the [Zenburn](http://sunaku.github.io/zenburn-terminal-color-scheme.html) version created by Suraj N. Kurapati.
+
+The Xcode dark, Xcode dark (High Contrast), Xcode light, Xcode light (High Contrast), and Xcode WWDC themes were all created by [lunacookies](https://github.com/lunacookies/vim-colors-xcode).
 
 The Zenbones schemes ( duckbones, kanagawabones, neobones_dark, neobones_light, seoulbones_dark, seoulbones_light, vimbones, zenbones, zenbones_dark, zenbones_light, zenburned, zenwritten_dark, zenwritten_light) were taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)

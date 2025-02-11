@@ -68,8 +68,8 @@ There are 3 ways to install an iTerm theme:
 
   # Import specific color schemes (quotations are needed for schemes with spaces in name)
   tools/import-scheme.sh 'schemes/SpaceGray Eighties.itermcolors' # by file path
-  tools/import-scheme.sh 'SpaceGray Eighties'                     # by scheme name
-  tools/import-scheme.sh Molokai 'SpaceGray Eighties'             # import multiple
+  tools/import-scheme.sh 'SpaceGray Eighties'       # by scheme name
+  tools/import-scheme.sh Molokai 'SpaceGray Eighties'     # import multiple
   ```
 
   - Restart iTerm 2. (Need to quit iTerm 2 to reload the configuration file.)
@@ -100,11 +100,12 @@ Have a great iTerm theme? Send it to me via a Pull Request!
    - `cd tools/ && ./gen.py`
 4. If you only want to generate files for your theme, you can specify this with the `-s` flag.
    - `./gen.py -s Dracula`
-5. Get a screenshot of your theme using the `screenshotTable.sh` script and ImageMagick. **For screenshot consistency, please have your font set to 13pt Monaco and no transparency on the window.**
-   - `cd tools/ && ./screenshotTable.sh` - this will create a color table for your theme that you can screenshot.
-   - Use ImageMagick (or some other tool) to resize your image for consistency - `mogrify -resize 600x300\! <path-to-your-screenshot>`
-   - Move your screenshot into `screenshots/` - `mv <your-screenshot> screenshots/`
-6. Update `README.md` and `screenshots/README.md` to include your theme and screenshot. Also update `CREDITS.md` to credit yourself for your contribution.
+5. Generate a screenshot of your theme using the `screenshot_gen` tool.
+   - `cd tools/ && python -m screenshot_gen`. This will generate new screenshots where they are missing.
+   - If you have `oxipng` or `zopflipng` installed, the screenshot will be optimized for you.
+6. Run `generate_screenshots_readme.py` to include your theme's screenshot in the `screenshots/README.md` file:
+   - `cd tools/ && python generate_screenshots_readme.py`
+7. Update `README.md` to include your theme and screenshot. Also update `CREDITS.md` to credit yourself for your contribution.
 
 ### How to add new template
 
@@ -139,13 +140,13 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
   {{ Ansi_15_Color }} // bright white
 
   Each color has these fields:
-    - {{ Background_Color.hex }} for hex representation
-    - {{ Background_Color.rgb }} for rgb representation as a "(r, g, b)" string
-    - {{ Backgroun_Color.guint16 }} for guint16 representation
+ - {{ Background_Color.hex }} for hex representation
+ - {{ Background_Color.rgb }} for rgb representation as a "(r, g, b)" string
+ - {{ Backgroun_Color.guint16 }} for guint16 representation
 
   Also you have access to this metadata fields:
-    - {{ Guint16_Palette }} with a string containing all ansi colors as guint16 values
-    - {{ Dark_Theme }} which contains a sign that the theme is dark
+ - {{ Guint16_Palette }} with a string containing all ansi colors as guint16 values
+ - {{ Dark_Theme }} which contains a sign that the theme is dark
 ```
 
 3. If you need a new value type for color, add it too `tools/converter.py`
@@ -157,6 +158,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 6. If in the process you had to add new dependencies or update the version of python, do not forget to indicate this in `requirements.txt` or `.python-version`.
 
 ## Screenshots
+
+### 0x96f
+
+![Screenshot](screenshots/0x96f.png)
 
 ### 3024 Day
 
@@ -182,6 +187,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/adventure_time.png)
 
+### Adwaita Dark
+
+![Screenshot](screenshots/adwaita_dark.png)
+
+### Adwaita
+
+![Screenshot](screenshots/adwaita.png)
+
 ### Afterglow
 
 ![Screenshot](screenshots/afterglow.png)
@@ -205,6 +218,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Apple System Colors
 
 ![Screenshot](screenshots/apple-system-colors.png)
+
+### Apple System Colors Light
+
+![Screenshot](screenshots/apple_system_colors_light.png)
 
 ### Arcoiris
 
@@ -241,6 +258,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### ayu Mirage
 
 ![Screenshot](screenshots/ayu_mirage.png)
+
+### Aura
+
+![Screenshot](screenshots/aura.png)
 
 ### Aurora
 
@@ -358,6 +379,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/ciapre.png)
 
+### Citruszest
+
+![Screenshot](screenshots/citruszest.png)
+
 ### CLRS
 
 ![Screenshot](screenshots/clrs.png)
@@ -391,7 +416,12 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ![Screenshot](screenshots/cyberpunk.png)
 
 ### Cyberpunk Scarlet Protocol
-1[Screenshot](screenshots/cyberpunk_scarlet_protocol.png)
+
+![Screenshot](screenshots/cyberpunk_scarlet_protocol.png)
+
+### Dark Modern
+
+![Screenshot](screenshots/dark_modern.png)
 
 ### Dark Pastel
 
@@ -416,6 +446,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Desert
 
 ![Screenshot](screenshots/desert.png)
+
+### Detuned
+
+![Screenshot](screenshots/detuned.png)
 
 ### Dimidium
 
@@ -469,6 +503,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/earthsong.png)
 
+### Electron Highlighter
+
+![Screenshot](screenshots/electron-highlighter.png)
+
+### Elegant
+
+![Screenshot](screenshots/elegant.png)
+
 ### Elemental
 
 ![Screenshot](screenshots/elemental.png)
@@ -476,6 +518,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Elementary
 
 ![Screenshot](screenshots/elementary.png)
+
+### Embers
+
+![Screenshot](screenshots/embers.png)
 
 ### ENCOM
 
@@ -492,6 +538,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Everblush
 
 ![Screenshot](screenshots/everblush.png)
+
+### Everforest Dark - Hard
+
+![Screenshot](screenshots/everforest_dark_hard.png)
 
 ### Fairyfloss
 
@@ -573,6 +623,38 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![image](screenshots/galizur.png)
 
+### Ghostty Default StyleDark
+
+![image](screenshots/Ghostty_Default_StyleDark.png)
+
+### GitHub Dark Default
+
+![image](screenshots/github-dark-default.png)
+
+### GitHub Dark Dimmed
+
+![image](screenshots/github-dark-dimmed.png)
+
+### GitHub Dark Colorblind
+
+![image](screenshots/github-dark-colorblind.png)
+
+### GitHub Dark High Contrast
+
+![image](screenshots/github-dark-high-contrast.png)
+
+### GitHub Light Default
+
+![image](screenshots/github-light-default.png)
+
+### GitHub Light Colorblind
+
+![image](screenshots/github-light-colorblind.png)
+
+### GitHub Light High Contrast
+
+![image](screenshots/github-light-high-contrast.png)
+
 ### Github
 
 ![Screenshot](screenshots/github.png)
@@ -580,6 +662,18 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### GitHub Dark
 
 ![Screenshot](screenshots/GitHub_Dark.png)
+
+### GitLab Dark
+
+![Screenshot](screenshots/git_lab-dark.png)
+
+### GitLab Dark Grey
+
+![Screenshot](screenshots/git_lab-dark-grey.png)
+
+### GitLab Light
+
+![Screenshot](screenshots/git_lab-light.png)
 
 ### Glacier
 
@@ -613,6 +707,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/gruvbox_light.png)
 
+### Gruvbox Light Hard
+
+![Screenshot](screenshots/gruvbox_light_hard.png)
+
+### gruvbox_material
+
+![Screenshot](screenshots/gruvbox_material.png)
+
 ### Guezwhoz
 
 ![Screenshot](screenshots/Guezwhoz.png)
@@ -629,6 +731,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/harper.png)
 
+### Havn Daggry
+
+![Screenshot](screenshots/havn_daggry.png)
+
+### Havn Skumring
+
+![Screenshot](screenshots/havn_skumring.png)
+
 ### HaX0R_R3D
 
 ![Screenshot](screenshots/HaX0R_R3D.png)
@@ -640,6 +750,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### HaX0R_BLUE
 
 ![Screenshot](screenshots/HaX0R_BLUE.png)
+
+### heeler
+
+![Screenshot](screenshots/heeler.png)
 
 ### Highway
 
@@ -665,6 +779,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/hopscotch_256.png)
 
+### Horizon
+
+![Screenshot](screenshots/horizon.png)
+
+### Horizon Bright
+
+![Screenshot](screenshots/horizon-bright.png)
+
 ### Hurtado
 
 ![Screenshot](screenshots/hurtado.png)
@@ -685,7 +807,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/iceberg.png)
 
-### IDEA Drak
+### IDEA Dark
 
 ![Screenshot](screenshots/idea.png)
 
@@ -752,6 +874,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Jubi
 
 ![Screenshot](screenshots/jubi.png)
+
+### Kanagawa Dragon
+
+![Screenshot](screenshots/kanagawa-dragon.png)
+
+### Kanagawa Wave
+
+![Screenshot](screenshots/kanagawa-wave.png)
 
 ### Kanagawabones
 
@@ -849,6 +979,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/darkermatrix.png)
 
+### Melange Light
+
+![Screenshot](screenshots/melange_light.png)
+
+### Melange Dark
+
+![Screenshot](screenshots/melange_dark.png)
+
 ### Medallion
 
 ![Screenshot](screenshots/medallion.png)
@@ -856,6 +994,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Mellifluous
 
 ![Screenshot](screenshots/mellifluous.png)
+
+### Mellow
+
+![Screenshot](screenshots/mellow.png)
+
+### Miasma
+
+![Screenshot](screenshots/miasma.png)
 
 ### Midnight In Mojave
 
@@ -876,6 +1022,38 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### MonaLisa
 
 ![Screenshot](screenshots/mona_lisa.png)
+
+### Monokai Classic
+
+![Screenshot](screenshots/monokai-classic.png)
+
+### Monokai Pro
+
+![Screenshot](screenshots/monokai-pro.png)
+
+### Monokai Pro Octagon
+
+![Screenshot](screenshots/monokai-pro-octagon.png)
+
+### Monokai Pro Machine
+
+![Screenshot](screenshots/monokai-pro-machine.png)
+
+### Monokai Pro Ristretto
+
+![Screenshot](screenshots/monokai-pro-ristretto.png)
+
+### Monokai Pro Spectrum
+
+![Screenshot](screenshots/monokai-pro-spectrum.png)
+
+### Monokai Pro Light
+
+![Screenshot](screenshots/monokai-pro-light.png)
+
+### Monokai Pro Light Sun
+
+![Screenshot](screenshots/monokai-pro-light-sun.png)
 
 ### Monokai Remastered
 
@@ -948,6 +1126,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Nord-light
 
 ![Screenshot](screenshots/nord_light.png)
+
+### Nord-wave
+
+![Screenshot](screenshots/nord-wave.png)
 
 ### NvimDark
 
@@ -1093,6 +1275,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/Retro.png)
 
+### RetroLegends
+
+![image](screenshots/RetroLegends.png)
+
 ### Rippedcasts
 
 ![Screenshot](screenshots/rippedcasts.png)
@@ -1169,6 +1355,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/smyck.png)
 
+### Snazzy Soft
+
+![Screenshot](screenshots/snazzy_soft.png)
+
 ### Snazzy
 
 ![Screenshot](screenshots/snazzy.png)
@@ -1202,9 +1392,17 @@ more information.
 
 ![Screenshot](screenshots/solarized_dark_higher_contrast.png)
 
+### Solarized Osaka Night
+
+![Screenshot](screenshots/solarized-osaka-night.png)
+
 ### SpaceGray
 
 ![Screenshot](screenshots/space_gray.png)
+
+### SpaceGray Bright
+
+![Screenshot](screenshots/spacegray_bright.png)
 
 ### SpaceGray Eighties
 
@@ -1229,6 +1427,18 @@ more information.
 ### Square
 
 ![Screenshot](screenshots/square.png)
+
+### Squirrelsong Dark
+
+![Screenshot](screenshots/squirrelsong_dark.png)
+
+### Srcery
+
+![Screenshot](screenshots/srcery.png)
+
+### Starlight
+
+![Screenshot](screenshots/starlight.png)
 
 ### Sublette
 
@@ -1306,9 +1516,17 @@ more information.
 
 ![Screenshot](screenshots/tokyonight-storm.png)
 
+### TokyoNight Moon
+
+![Screenshot](screenshots/tokyonight-moon.png)
+
 ### TokyoNight Day
 
 ![Screenshot](screenshots/tokyonight-day.png)
+
+### TokyoNight Night
+
+![Screenshot](screenshots/tokyonight-night.png)
 
 ### Tomorrow
 
@@ -1422,6 +1640,26 @@ more information.
 
 ![Screenshot](screenshots/wryan.png)
 
+### Xcode dark
+
+![Screenshot](screenshots/xcodedark.png)
+
+### Xcode dark (High Contrast)
+
+![Screenshot](screenshots/xcodedarkhc.png)
+
+### Xcode light
+
+![Screenshot](screenshots/xcodelight.png)
+
+### Xcode light (High Contrast)
+
+![Screenshot](screenshots/xcodelighthc.png)
+
+### Xcode WWDC
+
+![Screenshot](screenshots/xcodewwdc.png)
+
 ### Zenbones
 
 ![Screenshot](screenshots/zenbones.png)
@@ -1466,59 +1704,59 @@ To install under the [X Window System](https://www.x.org/):
 
 - Import the .xrdb file of the scheme you'd like to use:
 
-        #include "/home/mbadolato/iTerm2-Color-Schemes/xrdb/Blazer.xrdb"
+  #include "/home/mbadolato/iTerm2-Color-Schemes/xrdb/Blazer.xrdb"
 
 - Use the `#define`s provided by the imported .xrdb file:
 
-        Rxvt*color0:       Ansi_0_Color
-        Rxvt*color1:       Ansi_1_Color
-        Rxvt*color2:       Ansi_2_Color
-        Rxvt*color3:       Ansi_3_Color
-        Rxvt*color4:       Ansi_4_Color
-        Rxvt*color5:       Ansi_5_Color
-        Rxvt*color6:       Ansi_6_Color
-        Rxvt*color7:       Ansi_7_Color
-        Rxvt*color8:       Ansi_8_Color
-        Rxvt*color9:       Ansi_9_Color
-        Rxvt*color10:      Ansi_10_Color
-        Rxvt*color11:      Ansi_11_Color
-        Rxvt*color12:      Ansi_12_Color
-        Rxvt*color13:      Ansi_13_Color
-        Rxvt*color14:      Ansi_14_Color
-        Rxvt*color15:      Ansi_15_Color
-        Rxvt*colorBD:      Bold_Color
-        Rxvt*colorIT:      Italic_Color
-        Rxvt*colorUL:      Underline_Color
-        Rxvt*foreground:   Foreground_Color
-        Rxvt*background:   Background_Color
-        Rxvt*cursorColor:  Cursor_Color
+  Rxvt*color0: Ansi_0_Color
+  Rxvt*color1: Ansi_1_Color
+  Rxvt*color2: Ansi_2_Color
+  Rxvt*color3: Ansi_3_Color
+  Rxvt*color4: Ansi_4_Color
+  Rxvt*color5: Ansi_5_Color
+  Rxvt*color6: Ansi_6_Color
+  Rxvt*color7: Ansi_7_Color
+  Rxvt*color8: Ansi_8_Color
+  Rxvt*color9: Ansi_9_Color
+  Rxvt*color10: Ansi_10_Color
+  Rxvt*color11: Ansi_11_Color
+  Rxvt*color12: Ansi_12_Color
+  Rxvt*color13: Ansi_13_Color
+  Rxvt*color14: Ansi_14_Color
+  Rxvt*color15: Ansi_15_Color
+  Rxvt*colorBD: Bold_Color
+  Rxvt*colorIT: Italic_Color
+  Rxvt*colorUL: Underline_Color
+  Rxvt*foreground: Foreground_Color
+  Rxvt*background: Background_Color
+  Rxvt*cursorColor: Cursor_Color
 
-        XTerm*color0:      Ansi_0_Color
-        XTerm*color1:      Ansi_1_Color
-        XTerm*color2:      Ansi_2_Color
-        XTerm*color3:      Ansi_3_Color
-        XTerm*color4:      Ansi_4_Color
-        XTerm*color5:      Ansi_5_Color
-        XTerm*color6:      Ansi_6_Color
-        XTerm*color7:      Ansi_7_Color
-        XTerm*color8:      Ansi_8_Color
-        XTerm*color9:      Ansi_9_Color
-        XTerm*color10:     Ansi_10_Color
-        XTerm*color11:     Ansi_11_Color
-        XTerm*color12:     Ansi_12_Color
-        XTerm*color13:     Ansi_13_Color
-        XTerm*color14:     Ansi_14_Color
-        XTerm*color15:     Ansi_15_Color
-        XTerm*colorBD:     Bold_Color
-        XTerm*colorIT:     Italic_Color
-        XTerm*colorUL:     Underline_Color
-        XTerm*foreground:  Foreground_Color
-        XTerm*background:  Background_Color
-        XTerm*cursorColor: Cursor_Color
+  XTerm*color0: Ansi_0_Color
+  XTerm*color1: Ansi_1_Color
+  XTerm*color2: Ansi_2_Color
+  XTerm*color3: Ansi_3_Color
+  XTerm*color4: Ansi_4_Color
+  XTerm*color5: Ansi_5_Color
+  XTerm*color6: Ansi_6_Color
+  XTerm*color7: Ansi_7_Color
+  XTerm*color8: Ansi_8_Color
+  XTerm*color9: Ansi_9_Color
+  XTerm*color10: Ansi_10_Color
+  XTerm*color11: Ansi_11_Color
+  XTerm*color12: Ansi_12_Color
+  XTerm*color13: Ansi_13_Color
+  XTerm*color14: Ansi_14_Color
+  XTerm*color15: Ansi_15_Color
+  XTerm*colorBD: Bold_Color
+  XTerm*colorIT: Italic_Color
+  XTerm*colorUL: Underline_Color
+  XTerm*foreground: Foreground_Color
+  XTerm*background: Background_Color
+  XTerm*cursorColor: Cursor_Color
 
 - Store the above snippets in a file and pass it in:
 
-        xrdb -merge YOUR_FILE_CONTAINING_ABOVE_SNIPPETS
+  xrdb -merge YOUR_FILE_CONTAINING_ABOVE_SNIPPETS
 
 - Open new XTerm or Rxvt windows to see the changes.
 
@@ -1534,31 +1772,31 @@ An example config file that includes the code snippet for the Symfonic theme wou
 
 ```ini
 [global_config]
-    [keybindings]
-    [profiles]
-      [[default]]
-        palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
-        background_image = None
-        use_system_font = False
-        cursor_color = "#f6f7ec"
-        foreground_color = "#c4c5b5"
-        font = Source Code Pro Light 11
-        background_color = "#1a1a1a"
-      [[Symfonic]]
-        palette = "#000000:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff:#1b1d21:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff"
-        background_color = "#000000"
-        cursor_color = "#dc322f"
-        foreground_color = "#ffffff"
-        background_image = None
-    [layouts]
-      [[default]]
-        [[[child1]]]
-          type = Terminal
-          parent = window0
-        [[[window0]]]
-          type = Window
-          parent = ""
-    [plugins]
+ [keybindings]
+ [profiles]
+   [[default]]
+  palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
+  background_image = None
+  use_system_font = False
+  cursor_color = "#f6f7ec"
+  foreground_color = "#c4c5b5"
+  font = Source Code Pro Light 11
+  background_color = "#1a1a1a"
+   [[Symfonic]]
+  palette = "#000000:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff:#1b1d21:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff"
+  background_color = "#000000"
+  cursor_color = "#dc322f"
+  foreground_color = "#ffffff"
+  background_image = None
+ [layouts]
+   [[default]]
+  [[[child1]]]
+    type = Terminal
+    parent = window0
+  [[[window0]]]
+    type = Window
+    parent = ""
+ [plugins]
 ```
 
 ### Konsole color schemes
@@ -1596,16 +1834,16 @@ Download the appropriate `colorscheme.reg` file. Open the file with a text edito
 #### Other PuTTY Recommendations
 
 ```
-Window > Apprearance
+Window > Appearance
  Font: Consolas, bold, 14-point
  Font quality:
-  ( ) Antialiased     ( ) Non-Antialiased
-  (O) ClearType       ( ) Default
+  ( ) Antialiased   ( ) Non-Antialiased
+  (O) ClearType    ( ) Default
 Window > Colours
  [X] Allow terminal to specify ANSI colours
  [X] Allow terminal to use xterm 256-colour mode
  Indicate bolded text by changing:
-  ( ) The font   (O) The colour   ( ) Both
+  ( ) The font  (O) The colour   ( ) Both
  [ ] Attempt to use logical palettes
  [ ] Use system colours
 ```
