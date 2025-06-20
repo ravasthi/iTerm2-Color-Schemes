@@ -6,6 +6,7 @@
 - [Screenshots](#screenshots)
 - [Credits](#credits)
 - [Extra](#extra)
+  - [Previewing color schemes](#previewing-color-schemes)
   - [X11 Installation](#x11-installation)
   - [Konsole color schemes](#konsole-color-schemes)
   - [Terminator color schemes](#terminator-color-schemes)
@@ -13,7 +14,6 @@
   - [PuTTY color schemes](#putty-color-schemes)
   - [Xfce Terminal color schemes](#xfce-terminal-color-schemes)
   - [FreeBSD vt(4) color schemes](#freebsd-vt-color-schemes)
-  - [Previewing color schemes](#previewing-color-schemes)
   - [MobaXterm color schemes](#mobaxterm-color-schemes)
   - [LXTerminal color schemes](#lxterminal-color-schemes)
   - [Visual Studio Code color schemes](#visual-studio-code-color-schemes)
@@ -21,6 +21,7 @@
   - [Alacritty color schemes](#alacritty-color-schemes)
   - [Ghostty color schemes](#ghostty-color-schemes)
   - [Termux color schemes](#termux-color-schemes)
+  - [Generic color schemes](#generic-color-schemes)
 
 ## Intro
 
@@ -76,6 +77,24 @@ There are 3 ways to install an iTerm theme:
 
 ## Contribute
 
+### Using Docker
+
+If docker is installed, the script `generate-all.sh` will do most of the
+steps described in [Prerequisits](#prerequisits), except for the instructions
+related to `pyenv` as this is not required in a docker container dedicated to
+generating the required files.
+
+With docker, there is no need to install python and its dependencies on your
+computer.
+
+The remaining manual tasks are to update `README.md` to include your theme and
+screenshot, and to update `CREDITS.md` to credit yourself for your contribution.
+
+#### Debugging using Docker
+
+In cases where new tools have to be tested, `./generate-all.sh debug` will start
+an interactive terminal session inside the container.
+
 ### Prerequisites
 
 1. For convenient work with generation scripts, it is recommended to install [pyenv](https://github.com/pyenv/pyenv).
@@ -84,7 +103,9 @@ There are 3 ways to install an iTerm theme:
 
 ### How to add new theme
 
-Have a great iTerm theme? Send it to me via a Pull Request!
+Have a great theme? Send it to me via a Pull Request!
+
+#### Have an iTerm theme?
 
 1. Get your theme's`.itermcolors` file.
    - Launch iTerm 2
@@ -93,19 +114,56 @@ Have a great iTerm theme? Send it to me via a Pull Request!
    - Click on **Color Presets**
    - Click on **Export**
    - Save the .itermcolors file
+   - Adjust the [Color Space](#color-space)
 2. Put your theme file into `/schemes/`
    - `mv <your-itermcolors-file> schemes/`
-3. Generate other formats for your theme using the `gen.py` script.
-   - `cd tools/ && python3 gen.py` OR
-   - `cd tools/ && ./gen.py`
-4. If you only want to generate files for your theme, you can specify this with the `-s` flag.
-   - `./gen.py -s Dracula`
-5. Generate a screenshot of your theme using the `screenshot_gen` tool.
-   - `cd tools/ && python -m screenshot_gen`. This will generate new screenshots where they are missing.
+3. Continue with the "Create derived versions" below.
+
+##### Color Space
+
+iTerm seems to store the colors in its color presets in P3 color space.
+The tools only can handle sRGB color space.
+To convert an `.itermcolors` file int sRGB color space, use the provided `p3tosRGB.py` tool:
+
+```shell
+python3 tools/p3tosRGB.py schemes/YOUR_SCHEME
+```
+
+When using Docker:
+
+```shell
+./generate-all.sh debug
+python3 tools/p3tosRGB.py schemes/YOUR_SCHEME
+```
+
+This will overwrite your scheme with a converted version.
+
+#### Have a theme in another format?
+
+1. Convert it to the YAML format specified in `yaml/README.md`.
+   This is an extension of the format supported by the [Gogh](https://github.com/Gogh-Co/Gogh/) project.
+   - If it helps, you can use `tools/kitty_to_yaml.py` and `tools/ghostty_to_yaml.py`.
+     These tools accept configuration file streamed into stdin, and output a YAML fragment to stdout.
+2. Put the YAML file in `yaml/`, with the `.yml` extension.
+3. Continue with the "Create derived versions" below.
+
+#### Create derived versions
+
+If you have `make` installed, steps 1 to 4 can be run with `make` from the root of the repository.
+
+1. Generate other formats for your theme using the `gen.py` script.
+   - `python3 tools/gen.py`
+2. If you only want to generate files for your theme, you can specify this with the `-s` flag.
+   - `python3 tools/gen.py -s Dracula`
+3. Generate a screenshot of your theme using the `screenshot_gen` tool.
+   - `pushd tools && python3 -m screenshot_gen && popd`. This will generate new screenshots where they are missing.
    - If you have `oxipng` or `zopflipng` installed, the screenshot will be optimized for you.
-6. Run `generate_screenshots_readme.py` to include your theme's screenshot in the `screenshots/README.md` file:
-   - `cd tools/ && python generate_screenshots_readme.py`
-7. Update `README.md` to include your theme and screenshot. Also update `CREDITS.md` to credit yourself for your contribution.
+4. Run `generate_screenshots_readme.py` to include your theme's screenshot in the `screenshots/README.md` file:
+   - `python3 tools/generate_screenshots_readme.py`
+
+#### Add your theme to the README
+
+1. Update `README.md` to include your theme and screenshot. Also update `CREDITS.md` to credit yourself for your contribution.
 
 ### How to add new template
 
@@ -162,6 +220,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### 0x96f
 
 ![Screenshot](screenshots/0x96f.png)
+
+### 12-bit Rainbow
+
+![Screenshot](screenshots/12-bit_rainbow.png)
 
 ### 3024 Day
 
@@ -227,6 +289,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/arcoiris.png)
 
+### Ardoise
+
+![Screenshot](screenshots/ardoise.png)
+
 ### Argonaut
 
 ![Screenshot](screenshots/argonaut.png)
@@ -242,6 +308,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Atom
 
 ![Screenshot](screenshots/atom.png)
+
+### Atom One Dark
+
+![Screenshot](screenshots/atom_one_dark.png)
 
 ### Atom One Light
 
@@ -287,6 +357,50 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/birds_of_paradise.png)
 
+### Black Metal (Bathory)
+
+![Screenshot](screenshots/black_metal_bathory.png)
+
+### Black Metal (Burzum)
+
+![Screenshot](screenshots/black_metal_burzum.png)
+
+### Black Metal (Dark Funeral)
+
+![Screenshot](screenshots/black_metal_dark_funeral.png)
+
+### Black Metal (Gorgoroth)
+
+![Screenshot](screenshots/black_metal_gorgoroth.png)
+
+### Black Metal (Immortal)
+
+![Screenshot](screenshots/black_metal_immortal.png)
+
+### Black Metal (Khold)
+
+![Screenshot](screenshots/black_metal_khold.png)
+
+### Black Metal (Marduk)
+
+![Screenshot](screenshots/black_metal_marduk.png)
+
+### Black Metal (Mayhem)
+
+![Screenshot](screenshots/black_metal_mayhem.png)
+
+### Black Metal (Nile)
+
+![Screenshot](screenshots/black_metal_nile.png)
+
+### Black Metal (Venom)
+
+![Screenshot](screenshots/black_metal_venom.png)
+
+### Black Metal
+
+![Screenshot](screenshots/black_metal.png)
+
 ### Blazer
 
 ![Screenshot](screenshots/blazer.png)
@@ -314,6 +428,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Borland
 
 ![Screenshot](screenshots/borland.png)
+
+### Box
+
+![Screenshot](screenshots/box.png)
+
+### Breadog
+
+![Screenshot](screenshots/breadog.png)
 
 ### Breeze
 
@@ -357,7 +479,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### CGA
 
-![Screenshot](screenshots/CGA.png)
+![Screenshot](screenshots/cga.png)
 
 ### Chalk
 
@@ -461,7 +583,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Django
 
-![Screenshot](screenshots/Django.png)
+![Screenshot](screenshots/django.png)
 
 ### DjangoRebornAgain
 
@@ -489,7 +611,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Dracula+
 
-![Screenshot](screenshots/Dracula+.png)
+![Screenshot](screenshots/dracula+.png)
 
 ### Duckbones
 
@@ -542,6 +664,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Everforest Dark - Hard
 
 ![Screenshot](screenshots/everforest_dark_hard.png)
+
+### Everforest Light - Med
+
+![Screenshot](screenshots/everforest_light_med.png)
 
 ### Fairyfloss
 
@@ -661,7 +787,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### GitHub Dark
 
-![Screenshot](screenshots/GitHub_Dark.png)
+![Screenshot](screenshots/github_dark.png)
 
 ### GitLab Dark
 
@@ -689,7 +815,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Grey-green
 
-![Screenshot](screenshots/Grey-green.png)
+![Screenshot](screenshots/grey-green.png)
 
 ### Gruber Darker
 
@@ -717,7 +843,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Guezwhoz
 
-![Screenshot](screenshots/Guezwhoz.png)
+![Screenshot](screenshots/guezwhoz.png)
 
 ### Hacktober
 
@@ -741,15 +867,15 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### HaX0R_R3D
 
-![Screenshot](screenshots/HaX0R_R3D.png)
+![Screenshot](screenshots/hax0r_r3d.png)
 
 ### HaX0R_GR33N
 
-![Screenshot](screenshots/HaX0R_GR33N.png)
+![Screenshot](screenshots/hax0r_gr33n.png)
 
 ### HaX0R_BLUE
 
-![Screenshot](screenshots/HaX0R_BLUE.png)
+![Screenshot](screenshots/hax0r_blue.png)
 
 ### heeler
 
@@ -818,6 +944,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### IR_Black
 
 ![Screenshot](screenshots/ir_black.png)
+
+### IRIX Console
+
+![Screenshot](screenshot/irix_console.png)
+
+### IRIX Terminal
+
+![Screenshot](screenshot/irix_terminal.png)
 
 ### iTerm2 Default
 
@@ -919,6 +1053,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/lavandula.png)
 
+### Light Owl
+
+![Screenshot](screenshots/light_owl.png)
+
 ### LiquidCarbon
 
 ![Screenshot](screenshots/liquid_carbon.png)
@@ -933,7 +1071,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### LoveLace
 
-![Screenshot](screenshots/LoveLace.png)
+![Screenshot](screenshots/lovelace.png)
 
 ### Man Page
 
@@ -1067,6 +1205,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/monokai_vivid.png)
 
+### moonfly
+
+![Screenshot](screenshots/moonfly.png)
+
 ### N0tch2k
 
 ![Screenshot](screenshots/n0tch2k.png)
@@ -1102,6 +1244,10 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### NightLion v2
 
 ![Screenshot](screenshots/nightlion_v2.png)
+
+### Night Owl
+
+![Screenshot](screenshots/night_owl.png)
 
 ### Night Owlish Light
 
@@ -1159,6 +1305,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ![Screenshot](screenshots/ollie.png)
 
+### One Double Dark
+
+![Screenshot](screenshots/one_double_dark.png)
+
+### One Double Light
+
+![Screenshot](screenshots/one_double_light.png)
+
 ### One Half Dark
 
 ![Screenshot](screenshots/onehalfdark.png)
@@ -1205,7 +1359,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Peppermint
 
-![Screenshot](screenshots/Peppermint.png)
+![Screenshot](screenshots/peppermint.png)
 
 ### Piatto Light
 
@@ -1217,7 +1371,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Popping and Locking
 
-![Screenshot](screenshots/Popping_and_Locking.png)
+![Screenshot](screenshots/popping_and_locking.png)
 
 ### Primary
 
@@ -1273,7 +1427,7 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 
 ### Retro
 
-![Screenshot](screenshots/Retro.png)
+![Screenshot](screenshots/retro.png)
 
 ### RetroLegends
 
@@ -1330,6 +1484,14 @@ Do you want to convert existing iTerm themes to themes for your favorite termina
 ### Seoulbones Light
 
 ![Screenshot](screenshots/seoulbones_light.png)
+
+### Selenized Dark
+
+![Screenshot](screenshots/selenized-dark.png)
+
+### Selenized Light
+
+![Screenshot](screenshots/selenized-light.png)
 
 ### Seti
 
@@ -1396,6 +1558,10 @@ more information.
 
 ![Screenshot](screenshots/solarized-osaka-night.png)
 
+### Sonokai
+
+![Screenshot](screenshots/sonokai.png)
+
 ### SpaceGray
 
 ![Screenshot](screenshots/space_gray.png)
@@ -1450,7 +1616,7 @@ more information.
 
 ### Sugarplum
 
-![Screenshot](screenshots/Sugarplum.png)
+![Screenshot](screenshots/sugarplum.png)
 
 ### Sundried
 
@@ -1587,6 +1753,10 @@ more information.
 ### Urple
 
 ![Screenshot](screenshots/urple.png)
+
+### Vague
+
+![Screenshot](screenshots/vague.png)
 
 ### Vaughn
 
@@ -1892,6 +2062,13 @@ Then specify the name of your theme in the `theme` field in the [config file](ht
 
 Copy the theme content from `termux/` and paste the content to `~/.termux` directory as `~/.termux/colors.properties` file and run `termux-reload-settings` to apply the theme.
 
+### Generic color schemes
+
+These schemes work with any terminal emulator with support for the OSC 4 escape code (including the Linux console, GNOME Terminal, and more).
+
+Copy the shell script from `generic/` and paste the script to `~/bin/set-colors.sh`, or wherever you prefer to put shell scripts.
+Then add `bash ~/bin/set-colors.sh` to your shell's config file (`~/.bashrc`, `~/.zshrc`, etc).
+
 ### Previewing color schemes
 
 [preview.rb](tools/preview.rb) is a simple script that allows you to preview
@@ -1910,6 +2087,20 @@ tools/preview.rb schemes/AdventureTime.itermcolors
 tools/preview.rb schemes/*
 ```
 
+#### Previewing color schemes in other terminal emulators
+
+[preview-generic.sh](tools/preview-generic.sh) is a script which can preview
+the themes in any terminal emulator which has support for the OSC 4 escape
+codes. It works by running the shell scripts from the `generic/` directory. 
+
+```sh
+# Apply AdventureTime scheme to the current session
+bash generic/AdventureTime.sh
+
+# Apply the schemes in turn
+# - Press left/right arrow keys to navigate, press `q` to stop
+./tools/preview-generic.sh generic/*
+```
 ---
 
 iTerm Color Schemes | iTerm2 Color Schemes | iTerm 2 Color Schemes | iTerm Themes | iTerm2 Themes | iTerm 2 Themes
